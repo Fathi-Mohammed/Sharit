@@ -1,0 +1,76 @@
+.button__ {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  outline: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+
+  .icon__ {
+    margin-inline-end: 10px;
+  }
+
+  &.modify_button__ {
+    border-radius: 5px;
+    border: 1px solid $secondaryColor;
+    color: $secondaryColor;
+    height: 32px;
+    min-width: 87px;
+
+    &:hover {
+      background-color: rgba($secondaryColor, 0.1);
+    }
+  }
+
+  &.delete_button__ {
+    border-radius: 5px;
+    border: 1px solid $redColor;
+    color: $redColor;
+    height: 32px;
+    min-width: 87px;
+
+    &:hover {
+      background-color: rgba($redColor, 0.1);
+    }
+  }
+}
+
+.buttons_group__ {
+  &.flex_group__ {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    // justify-content: center;
+    
+    &.group_gap__ {
+      gap: 8px;
+    }
+
+    &.second_group_gap__ {
+      gap: 20px;
+    }
+
+    &.none_margin__ {
+      margin: 0;
+    }
+  }
+
+  &.column_dir__ {
+    flex-direction: column;
+  }
+
+  &.full_width_small_screen_only {
+
+    @include xs {
+      min-width: 100%;
+    }
+  }
+  
+  @include sm {
+    min-width: 100%;
+  }
+}

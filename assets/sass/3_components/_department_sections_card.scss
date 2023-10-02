@@ -1,0 +1,57 @@
+.department_sections_card__ {
+  background-color: rgba($primaryColor, 0.05);
+  border-radius: $secondaryBorderRadius;
+  min-width: calc(25% - 60px);
+
+  @include md {
+    min-width: calc(100% / 3 - 50px);
+  }
+
+  @include sm {
+    min-width: calc(100% / 3 - 20px);
+  }
+  
+  @include xs {
+    min-width: calc(100% / 2 - 15px);
+  }
+
+  .figure__ {
+    padding-bottom: 95.5%;
+    max-width: 90%;
+    border-radius: $thirdBorderRadius;
+    overflow: hidden;
+    margin: 0 auto; 
+    margin-top: -40px;
+    margin-bottom: 17px;
+
+    .img-om {
+      transition: 0.5s;
+    }
+  }
+
+  .description__ {
+    padding-bottom: 24px;
+  }
+
+  .title__ {
+    font-size: 17px;
+    font-weight: 400;
+    color: $headingMainColor;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    .figure__ {
+      .img-om {
+        transform: scale(1.1);
+      }
+    }
+    .title__ {
+      color: $secondaryColor;
+    }
+  }
+}

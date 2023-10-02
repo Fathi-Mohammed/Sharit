@@ -1,0 +1,67 @@
+.service_department {
+  .services_card__ {
+    flex-direction: row;
+    gap: 16px;
+    box-shadow: unset;
+    align-items: unset;
+    justify-content: unset;
+    cursor: default;
+
+    @include xxs {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .img_wrapper__ {
+      min-width: 168px;
+      max-width: 168px;
+      flex-grow: 1;
+
+      @include xxs {
+        min-width: 100%;
+      }
+    }
+
+    .figure__ {
+      padding-bottom: 75%;
+      border-radius: $secondaryBorderRadius;
+      overflow: hidden;
+    }
+
+    .title__ {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 15px;
+
+      @include sm {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .parag__ {
+      font-size: 16px;
+      font-weight: 300;
+      color: $paragraphFourthColor;
+      max-width: 720px;
+
+      @include md {
+        font-size: 12px;
+      }
+
+      @include sm {
+        font-size: 10px;
+      }
+
+      @include xxs {
+        font-size: 9px;
+      }
+    }
+
+    &:hover {
+      .img-om {
+        transform: unset;
+      }
+    }
+  }
+}

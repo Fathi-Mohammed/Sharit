@@ -1,0 +1,144 @@
+.banner_block {
+  background-color: #fff;
+  border-radius: $mainBorderRadius;
+  padding: 10px;
+  margin-bottom: 30px;
+
+  .banner_description {
+    background-color: $mainBackgroundColor;
+    border-radius: $mainBorderRadius;
+    padding: 12px 20px;
+
+    .description_title__ {
+      font-size: 26px;
+      font-weight: 500;
+      color: $headingMainColor;
+      margin: 0;
+      display: flex;
+      align-items: center;
+
+      @include xxs {
+        font-size: 18px;
+      }
+    }
+
+    .title_number_ {
+      font-size: 45px;
+      color: $headingMainColor;
+      font-weight: 700;
+      margin-inline-end: 23px;
+
+      @include xxs {
+        font-size: 30px;
+      }
+    }
+
+    .sub_title__ {
+      margin-inline-start: 20px;
+      font-size: 19px;
+      font-weight: 300;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .price {
+      background-color: rgba($secondaryColor, 0.12);
+      width: fit-content;
+      padding: 8px 25px;
+      border-radius: $mainBorderRadius;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      gap: 20px;
+    }
+
+    .old_price__ {
+      color: $greyColor;
+      font-size: 13px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 48px;
+        height: 1px;
+        background-color: $greyColor;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-20deg);
+      }
+    }
+
+    .figure__ {
+      border-radius: 20px;
+      padding-bottom: 72.29%;
+      overflow: hidden;
+    }
+  }
+
+  .banner_link__ {
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    padding-inline-start: 30px;
+    gap: 1px;
+  }
+
+  .ad_title__ {
+    font-size: 16px;
+    font-weight: 500;
+    color: $headingMainColor;
+    margin-bottom: 10px;
+    transition: 0.5s;
+  }
+
+
+  .ad_division {
+    font-size: 14px;
+    font-weight: 500;
+    color: $secondaryColor;
+  }
+
+  &:hover {
+    .banner_description {
+      .img-om {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+// mobile view
+@include xxs {
+  .banner_block {
+    .banner_description {
+      .banner_description_row_modify {
+        flex-direction: column-reverse;
+      }
+
+      .description_title__,
+      .sub_title__ {
+        justify-content: center;
+      }
+
+      .price {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    .banner_link__ {
+      flex-direction: column;
+      padding-inline-start: 0;
+      text-align: center;
+    }
+    .banner_link {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}
+

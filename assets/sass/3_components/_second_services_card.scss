@@ -1,0 +1,64 @@
+.second_services_card {
+  padding: 13px 16px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-radius: $mainBorderRadius;
+	
+  .img_block {
+    border-radius: $mainBorderRadius;
+    margin-bottom: 12px;
+		overflow: hidden;
+
+    .figure__ {
+      padding-bottom: 43.11%;
+			transition: 0.5s;
+    }
+  }
+
+  .description_block__ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+		padding: 0 10px;
+  }
+
+	.title__ {
+		font-size: 13px;
+		font-weight: 500;
+		text-transform: capitalize;
+		margin-bottom: 6px;
+		color: $headingMainColor;
+		transition: 0.5s;
+	}
+
+	.parag__ {
+		font-size: 11px;
+		font-weight: 300;
+		margin: 0;
+		margin-inline-start: 10px;
+	}
+
+	&:hover {
+		text-decoration: none;
+
+		.img_block {
+			.figure__ {
+				transform: scale(1.2);
+			}
+		}
+
+		.title__ {
+			color: $secondaryColor;
+		}
+	}
+
+	&.education_service_card {
+		.img_block {
+			.figure__ {
+				padding-bottom: 61.70%;
+			}
+		}
+	}
+
+}

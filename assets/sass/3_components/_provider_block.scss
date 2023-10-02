@@ -1,0 +1,162 @@
+.provider_offer_card {
+  background-color: #fff;
+  box-shadow: $secondaryShadowColor;
+  padding: 20px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  margin-top: 36px; // half img_wrapper height
+
+  .img_wrapper {
+    width: 72px;
+    height: 72px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -56px;
+  }
+
+  .figure__ {
+    border-radius: 50%;
+    padding: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+
+  .provider_name__ {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7.5px;
+    color: $headingMainColor;
+    text-transform: capitalize;
+
+    @include xxs {
+      font-size: 11px;
+    }
+  }
+
+  .parag__ {
+    margin: 15px 0;
+    font-size: 13px;
+    font-weight: 300;
+    color: $paragraphSixthColor;
+    text-align: center;
+
+    @include xxs {
+      font-size: 8px;
+      margin: 8px 0;
+    }
+  }
+
+  .price__ {
+    color: $primaryColor;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+
+    @include xxs {
+      margin-bottom: 8px;
+      font-size: 11px;
+    }
+  }
+
+  .submit-button__ {
+    height: 43px;
+    font-size: 12px;
+    font-weight: 500;
+
+    @include xs {
+      padding: 10px;
+      font-size: 8px;
+      height: fit-content;
+    }
+  }
+
+  &.provider_offer_second_body_card {
+    border-radius: 18px;
+    position: relative;
+
+    .img_wrapper {
+      position: absolute;
+      top: -40px;
+      width: 80px;
+      height: 80px;
+      margin: 0;
+    }
+
+    .provider_name__ {
+      @include xxs {
+        margin-top: 20px;
+      }
+    }
+
+    .description_wrapper__ {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .button_wrapper__ {
+      padding-top: 12px;
+      border-radius: 15px 15px 33px 33px;
+      
+      &.with_background__ {
+        background-color: rgba($primaryColor, 0.06);
+      }
+    }
+
+    &.modal_body_card__ {
+      margin: 63px auto 35px;
+      max-width: 235px;
+
+      .img_wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .description_wrapper__ {
+        margin-top: 25px;
+        flex-direction: column;
+      }
+
+      .price__ {
+        margin: 0;
+      }
+    }
+  }
+  
+  &.chat_provider_head_info__ {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    box-shadow: unset;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+
+    .img_wrapper {
+      margin: 0;
+    }
+
+    @include xs {
+      .img_wrapper {
+        width: 50px;
+        height: 50px;
+      }
+
+      .provider_rating_wrapper__ {
+        .rating_star_icon__ {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

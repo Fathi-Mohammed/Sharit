@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141.641" height="81.941" viewBox="0 0 141.641 81.941">
+  <g id="Group_173878" data-name="Group 173878" transform="translate(-116.051 -474.554)">
+    <g id="Group_173815" data-name="Group 173815" transform="translate(0.483 1)">
+      <g id="Ellipse_7686" data-name="Ellipse 7686" transform="translate(241 477)" fill="#fff" stroke="#0e9096" stroke-width="1" opacity="0.41">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+      <g id="Ellipse_7687" data-name="Ellipse 7687" transform="translate(120 541)" fill="#fff" stroke="#bed644" stroke-width="1" opacity="0.41">
+        <circle cx="6" cy="6" r="6" stroke="none"/>
+        <circle cx="6" cy="6" r="5.5" fill="none"/>
+      </g>
+      <path id="Path_59560" data-name="Path 59560" d="M15,8S9.055,9,5.3,7,0,0,0,0" transform="translate(117 474)" fill="none" stroke="#0e9096" stroke-width="3" opacity="0.3"/>
+      <path id="Path_59561" data-name="Path 59561" d="M10.865.18S6.559-.542,3.842.907,0,5.975,0,5.975" transform="translate(245.967 538.203) rotate(-2)" fill="none" stroke="#bed644" stroke-width="2" opacity="0.3"/>
+    </g>
+    <g id="receipt-add_bulk" data-name="receipt-add/bulk" transform="translate(152.504 479.504)">
+      <g id="vuesax_bulk_receipt-add" data-name="vuesax/bulk/receipt-add">
+        <g id="receipt-add">
+          <path id="Vector" d="M0,0H76.991V76.991H0Z" fill="none" opacity="0"/>
+          <path id="Vector-2" data-name="Vector" d="M19.248,12.832V20.6c0,5.069-3.208,8.277-8.277,8.277H0V6.448A6.476,6.476,0,0,1,6.48,0,12.815,12.815,0,0,1,19.248,12.832Z" transform="translate(51.327 6.416)" fill="#0e9096"/>
+          <path id="Vector-3" data-name="Vector" d="M0,16.04V60.951a3.2,3.2,0,0,0,5.133,2.566l5.486-4.106a3.232,3.232,0,0,1,4.235.321l5.325,5.357a3.234,3.234,0,0,0,4.555,0L30.123,59.7a3.18,3.18,0,0,1,4.17-.289l5.486,4.106a3.215,3.215,0,0,0,5.133-2.566V6.416A6.435,6.435,0,0,1,51.327,0h-38.5C3.208,0,0,5.742,0,12.832Z" transform="translate(6.416 6.416)" fill="#0e9096" opacity="0.4"/>
+          <path id="Vector-4" data-name="Vector" d="M20.05,8.822H13.634V2.406a2.406,2.406,0,1,0-4.812,0V8.822H2.406a2.406,2.406,0,0,0,0,4.812H8.822V20.05a2.406,2.406,0,0,0,4.812,0V13.634H20.05a2.406,2.406,0,0,0,0-4.812Z" transform="translate(17.644 20.852)" fill="#0e9096"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+.selected_sections_wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 9px;
+}
+
+.selected_section {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  box-shadow: $thirdShadowColor;
+  padding: 12px 21px;
+  border-radius: $secondaryBorderRadius;
+
+  .selected_section_name__ {
+    font-size: 14px;
+    font-weight: 300;
+    color: $headingMainColor;
+    margin: 0;
+  }
+} 

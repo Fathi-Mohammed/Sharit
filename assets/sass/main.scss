@@ -1,0 +1,75 @@
+// abstracts or helpers
+@import "1_abstracts/variables";
+@import "1_abstracts/functions";
+@import "1_abstracts/mixins";
+
+// base
+@import "2_base/fonts";
+@import "2_base/base";
+@import "2_base/links";
+@import "2_base/buttons";
+@import "2_base/overlay";
+@import "2_base/selection_color";
+@import "2_base/scroll_bar";
+@import "2_base/lazy_load";
+@import "2_base/image_block";
+@import "2_base/close_button";
+@import "2_base/key_frames";
+
+//3_components
+@import "3_components/bootstrap_accordion";
+@import "3_components/bootstrap_modal";
+@import "3_components/bootstrap_tabs";
+@import "3_components/main_site_link";
+@import "3_components/main_heading";
+@import "3_components/pagination";
+@import "3_components/message_block";
+@import "3_components/services_card";
+@import "3_components/ads_block";
+@import "3_components/second_services_card";
+@import "3_components/request_card";
+@import "3_components/service_provider_offer_card";
+@import "3_components/provider_block";
+@import "3_components/notification_card";
+@import "3_components/customer_evaluation_card";
+@import "3_components/custom_dropdown";
+@import "3_components/client_card";
+@import "3_components/my_services_card";
+@import "3_components/balance_card";
+@import "3_components/operations_card";
+@import "3_components/background_shapes_animation";
+@import "3_components/about_us_card";
+@import "3_components/section_card";
+@import "3_components/selected_sections_wrapper";
+@import "3_components/department_sections_card";
+@import "3_components/service_department_section_card";
+@import "3_components/rating_wrapper";
+
+// 4_layout
+@import "4_layout/header";
+@import "4_layout/footer";
+@import "4_layout/forms";
+@import "4_layout/sliders";
+
+// 5_pages
+@import "5_pages/default_page";
+@import "5_pages/home";
+@import "5_pages/registerration_pages";
+@import "5_pages/deals";
+@import "5_pages/add_deal";
+@import "5_pages/contact_us";
+@import "5_pages/consultation_request";
+@import "5_pages/terms_and_conditions";
+@import "5_pages/notifications";
+@import "5_pages/profile";
+@import "5_pages/single_chat";
+@import "5_pages/all_message";
+@import "5_pages/division";
+@import "5_pages/my_account";
+@import "5_pages/single_department_section_page";
+@import "5_pages/request_details";
+@import "5_pages/request_details_provider_perspective";
+@import "5_pages/modify_my_data_provider_perspective";
+@import "5_pages/my_balance";
+@import "5_pages/department_sections_page";
+@import "5_pages/service_department";

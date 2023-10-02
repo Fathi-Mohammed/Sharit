@@ -1,0 +1,116 @@
+.modal {
+  // .close {
+  //   position: absolute;
+  //   top: 5px;
+  //   inset-inline-start: 10px;
+  // }
+
+  .modal-content {
+    padding: 45px 80px;
+    border-radius: $mainBorderRadius;
+    text-align: center;
+    border: none;
+
+    @include xxs {
+      padding: 30px 10px;
+    }
+  }
+}
+
+.modal-backdrop {
+  background-color: $primaryColor;
+}
+
+.modal-dialog {
+  max-width: 500px;
+}
+
+.modal_block__ {
+  > .figure__ {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    &.modal_payment_review_icon {
+      margin-bottom: 15px;
+    }
+  }
+
+  .textarea-om {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: $primaryColor;
+  }
+
+  .sub_title__ {
+    font-size: 13px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    color: $paragraphFourthColor;
+    max-width: 218px;
+    text-align: center;
+  }
+
+  .parag_head__ {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $headingMainColor;
+    text-align: start;
+    margin-inline-start: 12px;
+    margin-bottom: 15px;
+  }
+
+  .parag__ {
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: $paragraphFourthColor;
+    text-align: start;
+    margin-bottom: 15px;
+
+    &.with_border {
+      padding-bottom: 20px;
+      border-bottom: 1px solid $borderColor;
+    }
+  }
+
+  .service_provider_offer_card {
+    margin-bottom: 23px;
+  }
+
+  .close_modal_button {
+    margin-top: 10px;
+    background-color: rgba($primaryColor, 0.09);
+    color: $primaryColor;
+    
+    &:hover {
+      background-color: rgba($primaryColor, 0.19);
+      color: $primaryColor;
+    }
+
+    .icon__ {
+      margin: 0;
+      width: 24px;
+      height: 24px;
+    }
+
+    &:active,
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.delete_modal {
+  .figure__ {
+    width: 25px;
+    height: 27.5px;
+  }
+}

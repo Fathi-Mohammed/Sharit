@@ -1,0 +1,12 @@
+<svg id="tag-user_broken" data-name="tag-user/broken" xmlns="http://www.w3.org/2000/svg" width="59.616" height="59.616" viewBox="0 0 59.616 59.616">
+  <g id="vuesax_broken_tag-user" data-name="vuesax/broken/tag-user">
+    <g id="tag-user">
+      <path id="Vector" d="M44.712,17.264V34.478a7.411,7.411,0,0,1-7.452,7.378H35.372a7.421,7.421,0,0,0-5.266,2.161l-4.248,4.2a5.023,5.023,0,0,1-7.03,0l-4.248-4.2a7.464,7.464,0,0,0-5.266-2.161H7.452A7.411,7.411,0,0,1,0,34.478V7.378A7.411,7.411,0,0,1,7.452,0H37.26a7.411,7.411,0,0,1,7.452,7.378" transform="translate(7.452 4.968)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <g id="Group" transform="translate(22.977 12.544)">
+        <path id="Vector-2" data-name="Vector" d="M5.043,9.688H4.67A4.845,4.845,0,1,1,9.688,4.844,4.778,4.778,0,0,1,5.043,9.688Z" transform="translate(1.962)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Vector-3" data-name="Vector" d="M0,9.9a13.34,13.34,0,0,0,13.662,0c3.3-2.211,3.3-5.813,0-8.023A13.34,13.34,0,0,0,0,1.882" transform="translate(0 15.283)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <path id="Vector-4" data-name="Vector" d="M0,0H59.616V59.616H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

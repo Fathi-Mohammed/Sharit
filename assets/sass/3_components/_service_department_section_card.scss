@@ -1,0 +1,69 @@
+.service_department_section_card__ {
+  display: flex;
+  align-items: center;
+  padding: 15px 21px 10px 36px;
+  border-radius: 13px;
+  cursor: pointer;
+  box-shadow: $secondaryShadowColor;
+
+  @include xxs {
+    padding: 10px 15px;
+  }
+  
+  .img_wrapper__ {
+    min-width: 94px;
+    max-width: 94px;
+    margin-inline-end: 20px;
+  }
+  
+  .figure__ {
+    padding-bottom: 96.80%;
+    border-radius: $secondaryBorderRadius;
+    overflow: hidden;
+  }
+  
+  .title__ {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    color: $headingMainColor;
+    transition: 0.5s;
+
+    @include xxs {
+      font-size: 14px;
+    }
+  }
+  
+  .sub_title__ {
+    font-size: 18px;
+    font-weight: 300;
+    color: $paragraphFourthColor;
+    margin: 0;
+
+    @include sm {
+      font-size: 12px;
+    }
+
+    @include xxs {
+      font-size: 10px;
+    }
+  }
+  
+  .icon__ {
+    margin-inline-start: auto;
+  }
+  
+  &:hover {
+    text-decoration: none;
+
+    .title__ {
+      color: $primaryColor;
+    }
+
+    .figure__ {
+      .img-om {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

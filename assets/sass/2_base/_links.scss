@@ -1,0 +1,232 @@
+.link-om {
+  color: $secondaryColor;
+  text-decoration: none;
+  transition: 0.5s;
+
+  &:hover {
+    color: $secondaryColor;
+    text-decoration: none;
+  }
+
+  &.with_icon {
+    display: flex;
+    align-items: center;
+
+    .icon__ {
+      margin-inline-end: 5px;
+    }
+  }
+}
+
+.seconde_link__ {
+  text-decoration: none;
+  color: $secondaryColor;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 4px 6px;
+  border: 1px solid $secondaryColor;
+  background-color: #e4f9fb;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: $secondaryColor;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.links_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link__ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 13px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+
+  &.main_link {
+    background-color: $primaryColor;
+    color: $headingMainColor;
+    width: 194px;
+    height: 57px;
+
+    &:hover {
+      background-color: $primaryColorHover;
+    }
+  }
+
+  &.app_download_link__ {
+    width: 260px;
+    background-color: $primaryColor;
+    gap: 30px;
+    color: #fff;
+    border-radius: 15px;
+    position: relative;
+    height: 67px;
+    z-index: 1;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.5s;
+
+    @include xs {
+      height: fit-content;
+      padding: 5px;
+      font-size: 8px;
+      font-weight: 275;
+      width: 100%;
+      gap: 10px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    .icon__ {
+      padding: 0;
+      transition: 0.5s;
+    }
+
+    &:hover {
+      background-color: $secondaryColor;
+      .icon__ {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &.provider_card_phone_link {
+    background-color: rgba($primaryColor, 0.17);
+    gap: 15px;
+    height: 49px;
+    font-size: 12px;
+    font-weight: 500;
+    width: 50%;
+    color: $headingMainColor;
+    
+    @include md {
+      min-width: 70%;
+      font-size: 10px;
+      gap: 5px;
+    }
+
+    @include sm {
+      padding: 5px;
+      font-style: 8px;
+      min-width: fit-content;
+    }
+    
+    &:hover {
+      background-color: rgba($primaryColor, 0.27);
+    }
+  }
+
+  &.request_card_link__ {
+    color: $primaryColor;
+    justify-content: space-between;
+    margin-inline-start: 10px;
+    padding: 10px 30px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: $secondaryBorderRadius;
+    background-color: rgba($primaryColor, 0.07);
+    position: relative;
+    
+    @include xs {
+      font-size: 10px;
+    }
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      inset-inline-end: 23px;
+      transform: translateY(-50%);
+      background-color: rgba($primaryColor, 0.07);
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      transition: 0.5s;
+      
+    }
+    
+    &:hover {
+      // background: rgba($primaryColor, 0.2);
+      &::before {
+        border-radius: $secondaryBorderRadius !important;
+        width: 100%;
+        height: 100%;
+        inset-inline-end: 0;
+        border-radius: 0;
+      }
+    }
+  }
+
+  &.change_password_link__ {
+    justify-content: flex-start;
+    width: 100%;
+    height: 57px;
+
+    padding: 0 33px;
+    color: $headingMainColor;
+    font-size: 13px;
+    font-weight: 300;
+
+
+    .icon__ {
+      &:last-of-type {
+        margin-inline-start: auto;
+      }
+    }
+
+    &:hover {
+      background-color: rgba(#000, 0.02);
+    }
+  }
+
+  &.intro_sec_more_link__ {
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    color: $primaryColor;
+    border-radius: $mainBorderRadius;
+    height: 49px;
+    max-width: 168px;
+
+    @include sm {
+      font-size: 12px;
+      height: 30px;
+      max-width: 125px;
+      margin-bottom: 20px;
+    }
+
+    @include sm {
+      font-size: 9px;
+      height: 25px;
+      max-width: 80px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &.sign_up_link__ {
+    color: $secondaryColor;
+    background-color: rgba($secondaryColor, 0.08);
+
+    &:hover {
+      color: #fff;
+      background-color: rgba($secondaryColor, 1);
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

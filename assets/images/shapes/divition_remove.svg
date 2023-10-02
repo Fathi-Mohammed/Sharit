@@ -1,0 +1,9 @@
+<svg id="minus-cirlce_linear" data-name="minus-cirlce/linear" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_linear_minus-cirlce" data-name="vuesax/linear/minus-cirlce">
+    <g id="minus-cirlce">
+      <path id="Vector" d="M10,20A10,10,0,1,0,0,10,10.029,10.029,0,0,0,10,20Z" transform="translate(1.92 2)" fill="none" stroke="#e2114a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H8" transform="translate(7.92 12)" fill="none" stroke="#e2114a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

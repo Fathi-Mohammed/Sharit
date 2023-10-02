@@ -1,0 +1,89 @@
+.my_services_card {
+  background-color: #fff;
+  border-radius: $mainBorderRadius;
+  padding: 22px;
+  padding-inline-start: 64px;
+
+  .card_title__ {
+    position: relative;
+    font-size: 12px;
+    font-weight: 300;
+    color: $headingFourthColor;
+    position: relative;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: rgba($secondaryColor, 0.1);
+      padding: 5px;
+      // border: 6px solid rgba($secondaryColor, 0.16);
+      top: 50%;
+      transform: translateY(-50%);
+      inset-inline-start: -37px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba($secondaryColor, 1);
+      padding: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      inset-inline-start: -32px;
+    }
+  }
+
+  .content__ {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      inset-inline-start: -27.5px;
+      height: 100%;
+      width: 4px;
+      background-color: transparent;
+      border-inline-start: 1px dashed #707070 ;
+
+
+    }
+  }
+
+  .main_services_title {
+    font-size: 14px;
+    font-weight: 500;
+    color: $secondaryColor;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+
+  .second_services_title {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 23px;
+      height: 5px;
+      background-color: transparent;
+      top: 50%;
+      transform: translateY(-50%);
+      inset-inline-start: -27px;
+      border-bottom: 1px dashed #707070;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 15px;
+    }
+  }
+}

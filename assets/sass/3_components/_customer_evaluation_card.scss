@@ -1,0 +1,55 @@
+.customer_evaluation_card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  .title__ {
+    font-size: 12px;
+    font-weight: 500;
+    color: $headingMainColor;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .provider_rate_block {
+    width: fit-content;
+  }
+
+  .provider_rate_block,
+  .service_provider_offer_card {
+    @include sm {
+      min-width: calc((100% / 2) - 7.5px);
+      max-width: calc((100% / 2) - 7.5px);
+    }
+
+    @include xs {
+      min-width: 100% !important;
+    }
+  }
+
+  .customer_evaluation_icon_wrapper {
+    display: flex;
+    align-items: center;
+
+    @include xs {
+      justify-content: space-between;
+    }
+  }
+
+  .customer_evaluation_rating_wrapper__ {
+    font-size: 24px;
+    color: $ratingIconBackground;
+    margin-inline-end: 32px;
+
+    .active {
+      color: $yellowColor;
+
+    }
+
+    @include xs {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<svg id="sms-star_linear" data-name="sms-star/linear" xmlns="http://www.w3.org/2000/svg" width="31.188" height="31.188" viewBox="0 0 31.188 31.188">
+  <g id="vuesax_linear_sms-star" data-name="vuesax/linear/sms-star">
+    <g id="sms-star">
+      <path id="Vector" d="M25.99,10.4v5.2c0,4.548-2.6,6.5-6.5,6.5H6.5c-3.9,0-6.5-1.949-6.5-6.5V6.5C0,1.949,2.6,0,6.5,0h6.5" transform="translate(2.599 4.548)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0,4.067,3.249a4.114,4.114,0,0,0,4.873,0" transform="translate(9.096 11.695)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <g id="Group" transform="translate(19.486 2.602)">
+        <path id="Vector-3" data-name="Vector" d="M5.828,1.062l.364.741a1.626,1.626,0,0,0,1.04.78l.494.078C9.207,2.908,9.558,4,8.492,5.078l-.455.455a1.645,1.645,0,0,0-.377,1.325l.065.273c.4,1.793-.546,2.482-2.105,1.546l-.338-.195a1.6,1.6,0,0,0-1.455,0l-.338.195c-1.572.949-2.521.247-2.105-1.546l.065-.273a1.645,1.645,0,0,0-.377-1.325L.617,5.078C-.448,4-.1,2.908,1.384,2.661l.494-.078a1.615,1.615,0,0,0,1.04-.78l.364-.741C3.983-.354,5.127-.354,5.828,1.062Z" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+      <path id="Vector-4" data-name="Vector" d="M0,0H31.188V31.188H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

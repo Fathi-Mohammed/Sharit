@@ -1,0 +1,38 @@
+.client_info_card {
+  display: flex;
+  align-items: center;
+  border-radius: $mainBorderRadius;
+  width: 100%;
+
+  .description_wrapper__ {
+    display: flex;
+    align-items: center;
+  }
+
+  .img_wrapper__ {
+    width: 33px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: 12px;
+  }
+
+  .figure__ {
+    height: 100%;
+    flex-grow: 1;
+  }
+  
+  .client_name {
+    font-weight: 300;
+    font-size: 14px;
+    color: $headingMainColor;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+  
+}

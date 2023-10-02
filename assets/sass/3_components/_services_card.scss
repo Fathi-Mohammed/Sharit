@@ -1,0 +1,70 @@
+.services_card__ {
+  padding: 14px;
+  padding-bottom: 25px;
+  border-radius: $secondaryBorderRadius;
+  box-shadow: $mainShadowColor;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  @include xxs {
+    padding: 7px;
+    padding-bottom: 12px;
+  }
+
+  .figure__ {
+    border-radius: $fourthBorderRadius;
+    overflow: hidden;
+    padding-bottom: 54.07%;
+    margin-bottom: 13px;
+  }
+
+  .title__ {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 9px;
+    color: $headingMainColor;
+    text-transform: capitalize;
+
+    @include xxs {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .sub_title__ {
+    font-size: 14px;
+    font-weight: 300;
+    color: $paragraphMainColor;
+    max-width: 73%;
+    margin: 0;
+
+    @include xxs {
+      font-size: 8px;
+    }
+  }
+
+  .icon__ {
+    margin: 0;
+  }
+
+  .link_wrapper__ {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    .figure__ {
+      .img-om {
+        transform: scale(1.2);
+      }
+    }
+
+    .title__ {
+      color: $primaryColor;
+    }
+  }
+}

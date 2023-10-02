@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237.555" height="140.574" viewBox="0 0 237.555 140.574">
+  <g id="Group_175023" data-name="Group 175023" transform="translate(-68.333 -170.306)">
+    <g id="Ellipse_7686" data-name="Ellipse 7686" transform="translate(278.642 175.668)" fill="#fff" stroke="#0e9096" stroke-width="2" opacity="0.41">
+      <circle cx="11.818" cy="11.818" r="11.818" stroke="none"/>
+      <circle cx="11.818" cy="11.818" r="10.818" fill="none"/>
+    </g>
+    <g id="Ellipse_7687" data-name="Ellipse 7687" transform="translate(74.353 283.722)" fill="#fff" stroke="#bed644" stroke-width="2" opacity="0.41">
+      <circle cx="10.13" cy="10.13" r="10.13" stroke="none"/>
+      <circle cx="10.13" cy="10.13" r="9.13" fill="none"/>
+    </g>
+    <path id="Path_59560" data-name="Path 59560" d="M25.325,13.507S15.287,15.188,8.956,11.812,0,0,0,0" transform="translate(69.288 170.604)" fill="none" stroke="#0e9096" stroke-width="2" opacity="0.3"/>
+    <path id="Path_59561" data-name="Path 59561" d="M18.344.3S11.073-.915,6.487,1.531,0,10.087,0,10.087" transform="translate(287.027 279) rotate(-2)" fill="none" stroke="#bed644" stroke-width="2" opacity="0.3"/>
+    <g id="empty-wallet_bulk" data-name="empty-wallet/bulk" transform="translate(117.362 170.604)">
+      <g id="vuesax_bulk_empty-wallet" data-name="vuesax/bulk/empty-wallet">
+        <g id="empty-wallet">
+          <path id="Vector" d="M0,0H140.276V140.276H0Z" fill="none" opacity="0"/>
+          <path id="Vector-2" data-name="Vector" d="M90.829,33.9a11.739,11.739,0,0,0-3.507,9.527c.526,6.312,6.312,10.93,12.625,10.93h11.105v6.955A22.026,22.026,0,0,1,89.075,83.289h-67.1A22.026,22.026,0,0,1,0,61.312V21.977A22.026,22.026,0,0,1,21.977,0h67.1a22.026,22.026,0,0,1,21.977,21.977v8.417H99.246A11.649,11.649,0,0,0,90.829,33.9Z" transform="translate(14.612 45.298)" fill="#0e9096" opacity="0.4"/>
+          <path id="Vector-3" data-name="Vector" d="M72.184,11.11V33.32H21.977A22.026,22.026,0,0,0,0,55.3V33.846A16.645,16.645,0,0,1,10.755,18.24L57.163.706A11.131,11.131,0,0,1,72.184,11.11Z" transform="translate(14.612 11.977)" fill="#0e9096"/>
+          <path id="Vector-4" data-name="Vector" d="M29.979,5.962V18a6,6,0,0,1-5.845,5.962H12.678c-6.312,0-12.1-4.617-12.625-10.93A11.739,11.739,0,0,1,3.56,3.507,11.649,11.649,0,0,1,11.977,0H24.134A6,6,0,0,1,29.979,5.962Z" transform="translate(101.881 75.691)" fill="#0e9096"/>
+          <g id="Group" transform="translate(36.53 65.755)">
+            <path id="Vector-5" data-name="Vector" d="M45.3,8.767H4.384A4.416,4.416,0,0,1,0,4.384,4.416,4.416,0,0,1,4.384,0H45.3a4.416,4.416,0,0,1,4.384,4.384A4.416,4.416,0,0,1,45.3,8.767Z" fill="#0e9096"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,163 @@
+.request_details_page {
+  .page_title__ {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .request_card__ {
+    padding: 20px 27px;
+    
+    @include xxs {
+      padding: 10px;
+    }
+  }
+
+  .request_details_description__ {
+    padding: 20px 27px;
+    border-radius: 13px;
+    box-shadow: $mainShadowColor;
+
+    @include xxs {
+      padding: 10px;
+    }
+  }
+
+  .title__ {
+    font-size: 14px;
+    font-weight: 400;
+    color: $headingMainColor;
+    margin-bottom: 20px !important;
+
+    @include xs {
+      font-size: 10px;
+    }
+  }
+
+  .parag__ {
+    font-size: 12px;
+    font-weight: 300;
+    color: $paragraphMainColor;
+
+    @include xs {
+      font-size: 8px;
+    }
+  }
+
+  .service_provider_Offers_block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .service_provider_offer_card {
+    min-width: calc((100% / 3) - 10px);
+    max-width: calc((100% / 3) - 10px);
+
+    @include sm {
+      min-width: calc((100% / 2) - 7.5px);
+      max-width: calc((100% / 2) - 7.5px);
+    }
+
+    @include xs {
+      min-width: 100%;
+    }
+  }
+
+  .providers_offers_section__ {
+    margin-top: 30px;
+  }
+
+  &.request_details_povider_page {
+      .section_wrapper__ {
+        background-color: #fff;
+        box-shadow: $secondaryShadowColor;
+        padding: 20px 27px;
+        flex-shrink: 0;
+        border-radius: 13px;
+        min-height: 122px;
+      }
+
+      .price__ {
+        color: $primaryColor;
+      }
+  }
+}
+
+.waiting_blocks {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  border-radius: $mainBorderRadius;
+  padding: 20px 38px;
+  font-size: 12px;
+  font-weight: 300;
+
+  .icon__ {
+    // animation: rotate spin 1s linear infinite;
+    animation: spin, clockRotate;
+    animation-delay: 0.5s, 0.5s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  &.waiting_to_receive_the_invoice {
+    background-color: rgba($secondRedColor, 0.09);
+    gap: 55px;
+    color: $secondRedColor;
+
+    @include sm {
+      min-width: 100%;
+    }
+  }
+
+  &.waiting_for_request_approval {
+    gap: 33px;
+    background-color: $inputBackgroundColor;
+    justify-content: center;
+
+    .icon__ {
+      filter: brightness(0);
+    }
+
+    &.full_width {
+      width: 100%;
+    }
+  }
+
+  &.waiting_for_receive_offer_from_providers {
+    gap: 10px;
+    height: 37px;
+    border-radius: $secondaryBorderRadius;
+    background-color: rgba($secondaryColor, 0.07);
+    justify-content: center;
+    color: $secondaryColor;
+
+    @include xxs {
+      padding: 0;
+      font-size: 8px;
+    }
+
+    &.full_width {
+      width: 100%;
+    }
+  }
+
+  &.request_accepted {
+    gap: 10px;
+    height: 37px;
+    border-radius: $secondaryBorderRadius;
+    background-color: rgba($greenColor, 0.07);
+    color: $greenColor;
+    justify-content: center;
+
+    @include xxs {
+      padding: 0;
+      font-size: 8px;
+    }
+
+    .icon__ {
+      animation: unset;
+    }
+  }
+}

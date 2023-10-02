@@ -1,0 +1,118 @@
+.chat_page__ {
+  max-width: 536px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+
+  @include sm {
+    padding-bottom: 20px;
+  }
+
+  .chat_head__ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: $secondaryShadowColor;
+    padding: 21px 33px;
+    border-radius: $secondaryBorderRadius;
+
+    @include xs {
+      flex-direction: column;
+    }
+
+    .page_title__ {
+      @include xs {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .title__ {
+      font-size: 16px;
+      font-weight: 700;
+      color: $primaryColor;
+      margin: 0;
+    }
+
+    .icon__ {
+      margin-bottom: 10px;
+    }
+  }
+
+  .chat_content__ {
+    margin: 0 auto;
+    max-height: 317px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 10px;
+    margin-bottom: 10px;
+
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+}
+
+.message_wrapper {
+  .message_content__ {
+    background-color: $primaryColor;
+    color: #fff;
+    padding: 15px;
+    width: 189px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: $secondaryBorderRadius $secondaryBorderRadius 0
+      $secondaryBorderRadius;
+    margin: 0;
+    margin-bottom: 10px;
+
+    &.with_photo_uploded__ {
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 217px;
+      padding: 0;
+      gap: 5px;
+
+      .img_wrapper {
+        width: calc(100% / 3 - 4px);
+        height: fit-content;
+        border-radius: 15px;
+        overflow: hidden;
+      }
+
+      .figure__ {
+        padding-bottom: 94.2%;
+        flex-grow: 1;
+      }
+    }
+  }
+
+  .time__ {
+    font-size: 10px;
+    font-weight: 300;
+    color: $headingMainColor;
+    width: fit-content;
+  }
+
+  &.received {
+    .message_content__ {
+      border-radius: 0 $secondaryBorderRadius $secondaryBorderRadius
+        $secondaryBorderRadius;
+      background-color: rgba($primaryColor, 0.05);
+      color: $headingMainColor;
+      margin-inline-start: auto;
+    }
+
+    .time__ {
+      margin: 0;
+      margin-inline-start: auto;
+    }
+  }
+
+  // &:not(:last-of-type) {
+  //   margin-bottom: 5px;
+  // }
+}

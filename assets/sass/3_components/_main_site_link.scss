@@ -1,0 +1,41 @@
+.site_link {
+  background-color: $primaryColor;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 53px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 60px;
+  gap: 10px;
+  margin: 0 auto;
+  transition: 0.5s;
+
+  @include sm {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
+
+  @include xxs {
+    font-size: 10px;
+    padding: 10px 15px;
+
+    .icon__ {
+      transform: scale(0.6);
+    }
+  }
+
+  .icon__ {
+    filter: brightness(0) invert(1);
+  }
+
+  &:hover {
+    background-color: $secondaryColorHover;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+

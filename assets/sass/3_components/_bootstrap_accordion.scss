@@ -1,0 +1,44 @@
+.accordion {
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid $borderColor !important;
+    border-radius: $mainBorderRadius !important;
+
+  }
+
+  .card-header {
+    padding: 0;
+
+    .btn-link {
+      padding: 20px;
+      text-decoration: none;
+      color: $headingMainColor;
+      background-color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &::after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        display: block;
+        background-image: url(../images/common_questions/plus.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+      }
+
+      &:not(.collapsed):after {
+        background-image: url(../images/common_questions/negative.svg);
+      }
+    }
+  }
+
+  .card-body {
+    font-size: 16px;
+    color: $paragraphMainColor;
+  }
+}

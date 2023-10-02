@@ -1,0 +1,126 @@
+.notifications_page {
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.notification_block__ {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+
+  @include xxs {
+    padding: 5px 10px;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $borderColor;
+  }
+
+  .icon__ {
+    margin-inline-end: 15px;
+    min-width: 46px;
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+  }
+
+  .info {
+    display: flex;
+
+    @include sm {
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .deal_num {
+      margin: 0;
+      margin-inline-end: 30px;
+      font-size: 16px;
+      font-weight: 500;
+
+      @include sm {
+        font-size: 14px;
+      }
+
+      @include xxs {
+        font-size: 9px;
+        margin-inline-end: 7px;
+      }
+    }
+
+    .deal_status {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      margin-inline-end: 20px;
+      flex-shrink: 0;
+
+      @include sm {
+        font-size: 14px;
+      }
+
+      @include xxs {
+        font-size: 9px;
+      }
+    }
+  }
+
+  .watch_deal {
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    margin-inline-start: auto;
+    color: $secondaryColor;
+    font-size: 13px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 6px;
+    border: 1px solid $secondaryColor;
+    transition: 0.5s;
+    flex-shrink: 0;
+
+    @include sm {
+      font-size: 10px;
+      width: fit-content;
+      height: fit-content;
+    }
+
+    @include xxs {
+      font-size: 7px;
+      width: fit-content;
+      height: fit-content;
+    }
+
+    &:hover {
+      background-color: $secondaryColor;
+      color: #fff;
+    }
+  }
+
+  &.accepted__ {
+    .icon__ {
+      background-color: #18c371;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  &.rejected__ {
+    .icon__ {
+      background-color: #fe4155;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+}

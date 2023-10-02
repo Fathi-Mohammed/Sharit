@@ -1,0 +1,40 @@
+.textarea-om {
+  height: 145px;
+  resize: none;
+  width: 100%;
+  border: 1px solid $inputBorderColor;
+  border-radius: $mainBorderRadius;
+  background-color: transparent;
+  padding: 24px 33px;
+
+  &.max_height_textarea_ {
+    height: 159px;
+  }
+
+  &:focus,
+  &:active,
+  &:hover {
+    outline: 0;
+    border-color: $primaryColor;
+    
+  }
+
+  &:focus,
+  &:active {
+    outline: 0;
+    border-color: $primaryColor;
+
+    &::placeholder {
+      opacity: 0;
+    }
+    
+  }
+  
+  
+  &::placeholder {
+    color: $placeholderColor;
+    opacity: 1;
+    font-size: 13px;
+    transition: 0.5s;
+  }
+}

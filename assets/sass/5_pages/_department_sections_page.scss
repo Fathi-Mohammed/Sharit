@@ -1,0 +1,23 @@
+.department_sections_cards_wrapper__ {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  row-gap: 65px;
+  margin-top: 95px;
+  margin-bottom: 74px;  
+
+  
+  @include md {
+    column-gap: 50px;
+  }
+  
+  @include sm {
+    column-gap: 30px;
+  }
+
+  @include xs {
+    margin-top: 65px;
+    margin-bottom: 30px;  
+    }
+}

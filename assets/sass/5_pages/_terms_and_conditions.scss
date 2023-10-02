@@ -1,0 +1,39 @@
+.terms_and_conditions_page__ {
+  padding: 10px 0 50px;
+}
+
+.terms_and_conditions_block {
+  background-color: #fff;
+  padding: 25px 25px 33px;
+
+  .section_head,
+  .parag_head {
+    font-size: 18px;
+    font-weight: 700;
+    color: $headingSecondaryColor;
+  }
+
+  .section_head {
+    margin-bottom: 40px;
+  }
+
+  .parag__ {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: $paragraphMainColor;
+    line-height: 1.8;
+  }
+
+  .download_btn__ {
+    border: 0;
+    outline: 0;
+    max-width: 220px;
+    height: 56px;
+    cursor: pointer;
+
+    svg {
+      margin-inline-end: 14px;
+    }
+  }
+}

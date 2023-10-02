@@ -1,0 +1,137 @@
+.nav-tabs {
+  padding: 0;
+  border: none;
+  margin: 0;
+  gap: 15px;
+  width: fit-content;
+  flex-wrap: nowrap;
+
+  @include xs {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-item {
+    border: none;
+    height: 47px;
+    width: 169px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: $mainBorderRadius;
+    color: $primaryColor;
+    background-color: rgba($primaryColor , 0.1);
+    border: 1px solid $borderColor;
+    transition: 0.5s;
+    
+    @include xs {
+      width: fit-content;
+      width: calc(50% - 5px);
+      max-width: calc(50% - 5px);
+    }
+    
+    &:hover {
+      background-color: rgba($primaryColor , 0.2);
+    }
+    
+    &.active {
+      background-color: $primaryColor;
+      color: #fff;
+      
+      &:hover {
+        // background-color: $primaryColorHover;
+      }
+    }
+  }
+}
+
+@include sm {
+  .nav-tabs {
+    justify-content: center;
+    gap: 10px;
+
+    .nav-item {
+      min-width: calc(100% / 2 - 5px);
+    }
+  }
+}
+
+.tab-content {
+  min-height: 300px;
+}
+
+.custom_dropdown__ {
+  @include xs {
+    .nav-item {
+      min-width: 100%;
+    }
+  }
+}
+
+.registeration_page__ {
+  .nav-tabs {
+    padding: 0;
+    border: none;
+    margin-bottom: 30px !important;
+    gap: 8px;
+    justify-content: center;
+
+    .nav-item {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      width: fit-content;
+      border: none;
+    }
+  }
+}
+
+.sign_up_page__ {
+  .nav-tabs {
+    justify-content: flex-start !important;
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+    column-gap: 48px;
+
+    @include sm {
+      gap: 0;
+    }
+  }
+
+  .nav-item {
+    height: fit-content;
+    justify-content: flex-start;
+
+    &.active {
+      .radio-label-om {
+        background-color: $secondaryColor;
+        background-image: url(../images/shapes/check-solid.svg);
+        border-color: $secondaryColor;
+      }
+
+      .text_ {
+        color: $secondaryColor;
+      }
+    }
+  }
+}
+
+.my_requests_provider_perspective {
+  @include sm {
+    .nav-tabs {
+      justify-content: center;
+      gap: 6px;
+  
+      .nav-item {
+        min-width: calc(100% / 3 - 4px);
+        padding: 0;
+        font-size: 10px;
+      }
+    }
+  }
+}

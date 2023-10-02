@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Eatamed</title>
+
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- start header  -->
+    <header class="main_header__">
+      <div class="fixed_header__">
+        <div class="container">
+          <div class="header_content__">
+            <a class="header_logo__" href="index.html">
+              <figure class="figure__">
+                <img src="assets/images/logo.png" alt=".." />
+              </figure>
+            </a>
+
+            <nav class="nav-om" id="navbar-menu-om">
+              <button class="close-button__"></button>
+
+              <figure class="figure__ nav_logo__">
+                <img src="assets/images/logo.png" alt=".." />
+              </figure>
+
+              <ul class="nav-list-om list-unstyled">
+                <li class="active">
+                  <a href="index.html">الرئيسية</a>
+                </li>
+                <li class="mega_menu__">
+                  <a class="" href="common_questions.html">عن اعتمد</a>
+                </li>
+                <li>
+                  <a href="sectors.html">خدماتنا</a>
+                </li>
+                <li>
+                  <a href="sector_divisions.html">الإعلانات</a>
+                </li>
+                <li>
+                  <a href="contact_us.html">حمل التطبيق</a>
+                </li>
+                <li>
+                  <a href="contact_us.html">تواصل معنا</a>
+                </li>
+              </ul>
+
+              <ul class="toolbar_options__ list-unstyled">
+                <li class="block__ header_search_input_wrapper">
+                  <figure class="figure__ icon__">
+                    <img
+                      class="img-om"
+                      src="assets/images/shapes/search.svg"
+                      alt=".."
+                    />
+                  </figure>
+                  <div class="search_input_wrapper">
+                    <input
+                      type="text"
+                      class="header_search_input"
+                      placeholder="البحث عن اسم الخدمة"
+                    />
+                  </div>
+                </li>
+
+                <!-- <li class="block__ notifications_link_item__">
+                  <a class="notifications_block__" href="#!">
+                    <img
+                      class="img-om icon__"
+                      src="./assets//images/shapes//notification.svg"
+                      alt=".."
+                    />
+                    <span class="notification_number__">3</span>
+                  </a>
+                </li> -->
+
+                <!-- <li class="block__ dropdown__ info_link_item__">
+                  <a class="info_link_block__" href="#!">
+                    <figure class="figure__ icon__">
+                      <img src="./assets/images/shapes/user.svg" alt="" />
+                    </figure>
+                    مرحبا
+                    <span class="user_name__">,أحمد</span>
+                  </a>
+                  <ul class="sub-menu__">
+                    <li>
+                      <a class="my_requests" href="#"> طلباتي </a>
+                    </li>
+                    <li>
+                      <a class="modify_my_data" href="#"> تعديل بياناتي </a>
+                    </li>
+                    <li>
+                      <label
+                        for="notification_checkbox"
+                        class="stop_notifications list_content__"
+                      >
+                        تعطيل الإشعارات
+
+                        <div class="checkbox_button_wrapper__">
+                          <input
+                            type="checkbox"
+                            id="notification_checkbox"
+                            name="checkbox"
+                          />
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <button
+                        class="signout_link__ list_content__"
+                        data-toggle="modal"
+                        data-target="#sign_out_modal"
+                      >
+                        تسجيل الخروج
+                      </button>
+                    </li>
+                  </ul>
+                </li> -->
+
+                <li class="block__ sing_up_blocks_list_item__">
+                  <div class="sing-up-blocks">
+                    <a
+                      class="singup_link login_link"
+                      href="register_signin.html"
+                      >تسجيل الدخول</a
+                    >
+                    <a class="singup_link" href="register_signup.html">
+                      حساب جديد
+                    </a>
+                  </div>
+                </li>
+
+                <li class="block__ lang_list_item__">
+                  <div class="lang__ dropdown__">
+                    <a class="lang_link__ butt__" href="#!">
+                      <figure class="figure__">
+                        <img src="./assets/images/shapes/global.svg" alt="" />
+                      </figure>
+                      العربية
+                    </a>
+                    <ul class="sub-menu__">
+                      <li><a href="#!">العربية</a></li>
+                      <li><a href="#!">English</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- start active nenu button in small sizes  -->
+            <button class="menu_button__ button__" id="menu-butt-activ-om">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fas"
+                data-icon="bars"
+                class="svg-inline--fa fa-bars fa-w-14"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                ></path>
+              </svg>
+            </button>
+            <!-- end active nenu button in small sizes  -->
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- Start Notification Page -->
+
+    <main class="notifications_page default_page__">
+      <div class="container">
+        <div class="page_title__ without_icon">
+          <h2 class="title__">أحدث العمليات</h2>
+          <h2 class="sub_title__">عمليات إضافة وتحويل الرصيد إلى حسابك</h2>
+        </div>
+
+        <div class="row row_modify with_row_gap">
+          <div class="col-12 col-lg-6">
+            <div class="operations_card balance_transferred">
+              <div class="head__">
+                <figure class="figure__ icon__ loading-omd unread_notification">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/dot.svg"
+                    alt=".."
+                  />
+                </figure>
+
+                <h3 class="title__">تم تحويل رصيد</h3>
+                <p class="time__">ساعتين</p>
+              </div>
+              <p class="operations_parag__">
+                تم تحويل رصيد إلى حسابك بقيمة 50.00 ريال سعودي
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="operations_card balance_transferred">
+              <div class="head__">
+                <figure class="figure__ icon__ loading-omd unread_notification">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/dot.svg"
+                    alt=".."
+                  />
+                </figure>
+
+                <h3 class="title__">تم تحويل رصيد</h3>
+                <p class="time__">ساعتين</p>
+              </div>
+              <p class="operations_parag__">
+                تم تحويل رصيد إلى حسابك بقيمة 50.00 ريال سعودي
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="operations_card">
+              <div class="head__">
+                <figure class="figure__ icon__ loading-omd unread_notification">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/dot.svg"
+                    alt=".."
+                  />
+                </figure>
+
+                <h3 class="title__">تم تحويل رصيد</h3>
+                <p class="time__">ساعتين</p>
+              </div>
+              <p class="operations_parag__">
+                تم تحويل رصيد إلى حسابك بقيمة 50.00 ريال سعودي
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="operations_card">
+              <div class="head__">
+                <figure class="figure__ icon__ loading-omd unread_notification">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/dot.svg"
+                    alt=".."
+                  />
+                </figure>
+
+                <h3 class="title__">تم تحويل رصيد</h3>
+                <p class="time__">ساعتين</p>
+              </div>
+              <p class="operations_parag__">
+                تم تحويل رصيد إلى حسابك بقيمة 50.00 ريال سعودي
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="operations_card">
+              <div class="head__">
+                <figure class="figure__ icon__ loading-omd unread_notification">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/dot.svg"
+                    alt=".."
+                  />
+                </figure>
+
+                <h3 class="title__">تم تحويل رصيد</h3>
+                <p class="time__">ساعتين</p>
+              </div>
+              <p class="operations_parag__">
+                تم تحويل رصيد إلى حسابك بقيمة 50.00 ريال سعودي
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="operations_card">
+              <div class="head__">
+                <figure class="figure__ icon__ loading-omd unread_notification">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/dot.svg"
+                    alt=".."
+                  />
+                </figure>
+
+                <h3 class="title__">تم تحويل رصيد</h3>
+                <p class="time__">ساعتين</p>
+              </div>
+              <p class="operations_parag__">
+                تم تحويل رصيد إلى حسابك بقيمة 50.00 ريال سعودي
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- End Notification Page -->
+    <!-- Start Footer -->
+
+    <footer class="footer_sec__">
+      <div class="contact_us_section">
+        <div class="container">
+          <div class="contact_us_content">
+            <div class="contact_wrapper">
+              <figure class="figure__ icon__ loading-omd">
+                <img
+                  class="lazy-omd img-om"
+                  data-src="assets/images/shapes/call.svg"
+                  alt=".."
+                />
+              </figure>
+
+              <div class="info">
+                <h3 class="title__">اتصل بنا</h3>
+                <a href="tel:+966052002589" class="contact_link__"
+                  >+966 0520 02589</a
+                >
+              </div>
+            </div>
+
+            <div class="contact_wrapper">
+              <figure class="figure__ icon__ loading-omd">
+                <img
+                  class="lazy-omd img-om"
+                  data-src="assets/images/shapes/mail.svg"
+                  alt=".."
+                />
+              </figure>
+              <div class="info">
+                <h3 class="title__">راسلنا عبر البريد</h3>
+                <a href="mailto:Eatamed2023@info.com" class="contact_link__"
+                  >Eatamed2023@info.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer_content__">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="footer_head__">روابط سريعة</h2>
+
+              <ul class="footer_list__ list-unstyled">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">حمل التطبيق</a></li>
+                <li><a href="#">تسجيل الدخول</a></li>
+                <li><a href="#">الشروط والأحكام</a></li>
+                <li><a href="#">عن إعتمد</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+                <li><a href="#">حساب جديد</a></li>
+                <li><a href="#">سياسة الخصوصية</a></li>
+              </ul>
+            </div>
+
+            <div class="col-12">
+              <ul class="footer_socials__ list-unstyled">
+                <li class="li__">
+                  <a href="#!" class="link__">
+                    <img
+                      class="img-om"
+                      src="./assets/images/socials/twitter.svg"
+                      alt=".."
+                      width=""
+                      height=""
+                    />
+                  </a>
+                </li>
+                <li class="li__">
+                  <a href="#!" class="link__">
+                    <img
+                      class="img-om"
+                      src="./assets/images/socials/snap_chat.svg"
+                      alt=".."
+                      width=""
+                      height=""
+                    />
+                  </a>
+                </li>
+                <li class="li__">
+                  <a href="#!" class="link__">
+                    <img
+                      class="img-om"
+                      src="./assets/images/socials/facebook.svg"
+                      alt=".."
+                      width=""
+                      height=""
+                    />
+                  </a>
+                </li>
+                <li class="li__">
+                  <a href="#!" class="link__">
+                    <img
+                      class="img-om"
+                      src="./assets/images/socials/what's_up.svg"
+                      alt=".."
+                      width=""
+                      height=""
+                    />
+                  </a>
+                </li>
+                <li class="li__">
+                  <a href="#!" class="link__">
+                    <img
+                      class="img-om"
+                      src="./assets/images/socials/instagram.svg"
+                      alt=".."
+                      width=""
+                      height=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights_content___">
+          <img
+            class="copyright_icon__"
+            src="./assets/images/shapes/copyright.png"
+            alt=".."
+          />
+
+          جميع الحقوق محفوظة - تصميم وبرمجة
+          <a href="#!">
+            <img
+              class="copyright_logo__"
+              src="./assets/images/shapes/copyrights.svg"
+              alt=".."
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- sign_out_modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="sign_out_modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <h2 class="title">تسجيل الخروج</h2>
+            <p class="sub_title__">هل أنت متأكد من تسجيل الخروج من التطبيق ؟</p>
+            <button
+              type="button"
+              class="submit-button__ full_width__ log_out_button"
+            >
+              <figure class="figure__ icon__ loading-omd">
+                <img
+                  class="lazy-omd img-om"
+                  data-src="assets/images/shapes/log_out.svg"
+                  alt=".."
+                />
+              </figure>
+              تأكيد الخروج
+            </button>
+
+            <button
+              type="button"
+              class="submit-button__ full_width__ close_modal_button"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start js include  -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.header_logo__ {
+  max-width: 124px;
+  display: block;
+  z-index: 1;
+  flex-basis: content;
+  
+  @include xxs {
+    max-width: 80px;
+  }
+
+  .figure__ {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

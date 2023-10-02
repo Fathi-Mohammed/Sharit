@@ -1,0 +1,11 @@
+<svg id="empty-wallet_linear" data-name="empty-wallet/linear" xmlns="http://www.w3.org/2000/svg" width="21.744" height="21.744" viewBox="0 0 21.744 21.744">
+  <g id="vuesax_linear_empty-wallet" data-name="vuesax/linear/empty-wallet">
+    <g id="Group" transform="translate(2.265 1.853)">
+      <path id="Vector" d="M14.079,5.255a1.82,1.82,0,0,0-.544,1.477,1.932,1.932,0,0,0,1.957,1.694h1.721V9.5a3.414,3.414,0,0,1-3.407,3.407H3.407A3.414,3.414,0,0,1,0,9.5v-6.1A3.414,3.414,0,0,1,3.407,0h10.4a3.414,3.414,0,0,1,3.407,3.407v1.3h-1.83A1.806,1.806,0,0,0,14.079,5.255Z" transform="translate(0 5.168)" fill="none" stroke="#7a7474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,9.39V5.25A2.58,2.58,0,0,1,1.667,2.831L8.861.113a1.722,1.722,0,0,1,2.328,1.613V5.168" transform="translate(0 0)" fill="none" stroke="#7a7474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Vector-3" data-name="Vector" d="M4.647.924V2.791a.93.93,0,0,1-.906.924H1.965A1.932,1.932,0,0,1,.008,2.02,1.82,1.82,0,0,1,.552.544,1.806,1.806,0,0,1,1.857,0H3.741A.93.93,0,0,1,4.647.924Z" transform="translate(15.791 11.733)" fill="none" stroke="#7a7474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0H6.342" transform="translate(6.342 10.872)" fill="none" stroke="#7a7474" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H21.744V21.744H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

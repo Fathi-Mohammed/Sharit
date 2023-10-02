@@ -1,0 +1,128 @@
+.message__ {
+  margin-bottom: 20px;
+  position: relative;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $borderColor;
+  }
+
+  &.message_sender {
+    margin-inline-start: auto;
+
+    .message_content {
+      background-color: #f2f3fc;
+    }
+  }
+}
+
+.message_head__ {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  text-decoration: none;
+
+  .img__ {
+    width: 56px;
+    height: 56px;
+    padding-bottom: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-inline-end: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .head_info {
+    .sender_name {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: $headingMainColor;
+    }
+
+    .message_arrived_time {
+      font-size: 12px;
+      color: $paragraphSecondaryColor;
+      margin: 0;
+
+      .time_icon {
+        margin-inline-end: 5px;
+      }
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.message_wrapper {
+  margin-bottom: 5px;
+}
+
+.message_content {
+  border-radius: $mainBorderRadius;
+  border: 1px solid $borderColor;
+  padding: 15px;
+  
+  .message_title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .parag__ {
+    font-size: 15px;
+    margin: 0;
+    color: $paragraphMainColor;
+  }
+}
+
+.file_download {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+
+  .icon__ {
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    padding: 0;
+    margin-inline-end: 10px;
+  }
+
+  .file_info {
+    .file_name {
+      margin: 0;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      color: #000;
+
+      .file_size {
+        margin-inline-start: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        display: inline;
+        color: $paragraphMainColor;
+      }
+    }
+
+    .dwonlobanner_link_ {
+      border: 0;
+      background-color: transparent;
+      font-size: 12px;
+      color: #4979ba;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

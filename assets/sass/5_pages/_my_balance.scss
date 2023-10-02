@@ -1,0 +1,50 @@
+.my_balance_page {
+  .figure__ {
+    margin: 60px 0 45px;
+  }
+
+  .balance_title {
+    font-size: 19px;
+    font-weight: 500;
+    color: $headingFifthColor;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .balance_number {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: $secondaryColor;
+    margin: 0;
+  }
+
+  .view_newest_operations_link {
+    margin: 0 auto;
+    margin-bottom: 36px;
+
+    .figure__ {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.empty_wallet_form__ {
+  .figure__ {
+    margin: 60px 0 45px;
+    filter: grayscale(1);
+  }
+
+  .balance_title {
+    font-size: 19px;
+    color: $headingFifthColor;
+    margin-bottom: 15px;
+  }
+
+  .balance_number {
+    font-weight: 500;
+    color: $headingFifthColor;
+    margin-bottom: 35px;
+  }
+}

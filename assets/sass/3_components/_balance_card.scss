@@ -1,0 +1,36 @@
+.balance_card {
+  background-color: #fff;
+  border-radius: $mainBorderRadius;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 32px;
+  margin-bottom: 15px;
+
+  .title__ {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+
+    &::before {
+      content: url(../images/shapes/title_dot_shape.svg);
+      display: block;
+      margin-inline-end: 20px;
+    }
+  }
+
+  .amount__ {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    color: $headingMainColor;
+    
+    .currency__ {
+      font-size: 16px;
+      font-weight: 300;
+      color: $headingMainColor;
+      margin-inline-start: 9px;
+    }
+  }
+}

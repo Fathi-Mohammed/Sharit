@@ -1,0 +1,79 @@
+.single_department_section_page {
+  padding: 0;
+
+  .figure__ {
+    padding-bottom: 95%;
+    border-radius: $mainBorderRadius;
+    overflow: hidden;
+
+    @include sm {
+      margin-bottom: 10px;
+    }
+  }
+
+  .head_title__ {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: $primaryColor;
+    margin-bottom: 8px;
+
+    @include xs {
+      font-size: 16px;
+    }
+  }
+
+  .sub_title__ {
+    font-size: 13px;
+    font-weight: 500;
+    color: $paragraphMainColor;
+    margin-bottom: 20px;
+
+    
+    @include xs {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .parag__ {
+    font-size: 12px;
+    font-weight: 300;
+    color: $paragraphMainColor;
+    margin-bottom: 25px;
+
+    
+    @include xs {
+      font-size: 9px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .title__ {
+    font-size: 12px;
+    font-weight: 500;
+    color: $primaryColor;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    @include xxs {
+      font-size: 8px;
+    }
+
+    &::before {
+      content: url(../images/shapes/title_dot.svg);
+      width: 18px;
+      height: 18px;
+
+      border-radius: 50%;
+    }
+    
+  }
+
+  .textarea-om {
+    height: 78px;
+    border-radius: 15px;
+  }
+}

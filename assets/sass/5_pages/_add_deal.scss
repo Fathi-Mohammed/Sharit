@@ -1,0 +1,23 @@
+.add_deal_page {
+  .radio_block {
+    padding: 15px;
+    border-radius: $mainBorderRadius;
+    border: 1px solid $borderBreakColor;
+    margin-bottom: 20px;
+  }
+
+  .add_deal_terms_text {
+    max-width: 600px;
+  }
+
+  .buttons_group__ {
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: flex-end;
+
+    @include sm {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+}

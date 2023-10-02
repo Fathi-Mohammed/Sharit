@@ -1,0 +1,34 @@
+.input__ {
+  height: 55px;
+  background-color: transparent;
+  border: solid 1px $inputBorderColor;
+  padding: 24px 33px;
+  margin-bottom: 0;
+  border-radius: $mainBorderRadius;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: $headingMainColor;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+
+  &:focus,
+  &:hover {
+    border-color: $primaryColor;
+  }
+
+  &:focus,
+  &:active {
+    &::placeholder {
+      opacity: 0;
+    }
+  }
+
+  &::placeholder {
+    color: $placeholderColor;
+    font-size: 13px;
+    opacity: 1;
+    transition: 0.5s;
+  }
+}

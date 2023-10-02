@@ -1,0 +1,174 @@
+// .radio-om {
+//     cursor          : pointer;
+//     margin          : 0;
+//     padding         : 0;
+//     width           : 16px;
+//     height          : 16px;
+//     background-color: #fff;
+//     border          : 1px solid #e8e8e8;
+//     opacity         : 0.4;
+
+//     &:checked {
+//         opacity: 1;
+//     }
+// }
+
+.radio-group-om {
+  display: flex;
+  align-items: center;
+
+  .radio-om {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    &:checked {
+      + .radio-label-om {
+        border-color: $secondaryColor;
+        background-image: url(../images/check.svg);
+      }
+    }
+  }
+
+  .radio-label-om {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #86959f;
+    background-position: center center;
+    background-size: 10px;
+    background-repeat: no-repeat;
+  }
+
+  .text_ {
+    margin: 0;
+    font-size: 15px;
+    margin-inline-start: 5px;
+    cursor: pointer;
+    color: $headingMainColor;
+  }
+}
+
+.customer_evaluation_icon_wrapper {
+  .rating-group {
+    display: inline-flex;
+    gap: 8px;
+    margin: 0;
+    margin-bottom: 45px;
+  }
+
+  .rating__icon {
+    pointer-events: none;
+  }
+
+  .rating__input {
+    // position: absolute !important;
+    // left: -9999px !important;
+    display: none;
+  }
+
+  .rating__input--none {
+    display: none;
+  }
+
+  .rating__label {
+    cursor: pointer;
+    margin: 0;
+    font-size: 30px;
+  }
+
+  .rating__icon--star {
+    color: orange;
+  }
+
+  .rating__input:checked ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+
+  .rating-group:hover .rating__label .rating__icon--star {
+    color: orange;
+  }
+
+  .rating__input:hover ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+}
+
+.radio_inputs_wrapper__ {
+  .radio-om {
+    &:checked {
+      + .radio-label {
+        background-color: $secondaryColor;
+        color: #fff;
+
+        .icon__ {
+          display: block !important;
+        }
+        
+        .title__,
+        .sub_title__,
+        .price__ {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .radio-label {
+    background-color: rgba($secondaryColor, 0.1);
+    border-radius: $thirdBorderRadius;
+    display: flex;
+    align-items: center;
+    height: 47px;
+    width: 169px;
+    color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 300;
+    gap: 8px;
+
+    @include xs {
+      width: 120px;
+      font-size: 10px;
+
+    }
+
+    .icon__ {
+      padding: 0 !important;
+      margin: 0 !important;
+      display: none;
+    }
+  }
+}
+
+.packages_radio_inputs_wrapper__ {
+  .radio-om {
+    &:checked {
+      + .radio-label {
+        padding-inline-start: 24px !important;
+        background-color: $secondaryColor;
+        color: #fff;
+  
+        .icon__ {
+          display: block !important;
+        }
+        
+        .title__,
+        .sub_title__,
+        .price__ {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

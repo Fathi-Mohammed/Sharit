@@ -1,0 +1,40 @@
+.all_message_page {
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.message_block {
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 25px 20px;
+  border-radius: $secondaryBorderRadius;
+  max-width: 820px;
+  display: block;
+
+  .call_button {
+    margin-inline-start: auto;
+
+    @include xxs {
+      min-width: 65px;
+    }
+  }
+
+  .message_content {
+    width: calc(100% - 61px);
+    margin-inline-start: auto;
+    margin-top: 20px;
+
+    @include xs {
+      width: 100%;
+    }
+
+    .parag__ {
+      margin: 0;
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,56 @@
+.default_page__ {
+  padding-top: 45px;
+  margin-bottom: 90px;
+  // min-height: 600px;
+
+  @include sm {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+// section defaults
+.default_section__ {
+  padding-bottom: 100px;
+
+  @include sm {
+    padding-bottom: 30px;
+  }
+}
+
+
+.row_modify {
+  display: flex;
+  align-items: center;
+
+  @include md {
+    justify-content: center;
+  }
+
+  &.with_row_gap {
+    row-gap: 30px;
+  }
+  
+  &.with_margin {
+    margin-bottom: 30px;
+  }
+  
+  &.reverse_dir_column_small_size {
+    @include xs {
+      gap: 20px;
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.col_start__ {
+  align-self: flex-start;
+}
+
+.col_center__ {
+  align-items: center;
+}
+
+.col_flex {
+  display: flex;
+}
