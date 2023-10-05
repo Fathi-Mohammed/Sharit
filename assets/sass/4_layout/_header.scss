@@ -32,6 +32,7 @@
   &.active_menu__ {
     animation: active-menu 0.5s;
     background-color: #fff;
+    box-shadow: $secondaryShadowColor;
   }
 
   &.not_active_menu__ {

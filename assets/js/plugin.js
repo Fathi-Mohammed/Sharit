@@ -289,11 +289,3 @@ function verificationTimer() {
     }, 1000);
   });
 }
-
-function stopFancyboxOnClickOnDeleteButton() {
-  $('.delete_uploaded_files_button__').click(function () {
-    $(this).parent().click(function (e) {
-      e.preventDefault()
-    })
-  })
-}

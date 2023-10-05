@@ -1,4 +1,16 @@
 .services_gallery_upload_files_page {
+
+  .services_gallery_item_wrapper__ {
+    position: relative;
+    
+    &:hover {
+      .delete_uploaded_files_button__ {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  
   .title__ {
     font-size: 19px;
     font-weight: 500;
@@ -8,9 +20,6 @@
     text-align: center;
   }
 
-  .upload_files_to_gallary_button__ {
-    position: relative;
-  }
 
   .file_input__ {
     position: absolute;
@@ -21,12 +30,20 @@
     opacity: 0;
   }
 
+  .delete_uploaded_files_button__ {
+    position: absolute;
+    top: -13px ;
+    inset-inline-end: -13px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
   .services_gallery_item__ {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    position: relative;
 
     .figure__ {
       overflow: hidden;
@@ -47,14 +64,6 @@
       }
     }
     
-    .delete_uploaded_files_button__ {
-      position: absolute;
-      top: -13px ;
-      inset-inline-end: -13px;
-      visibility: hidden;
-      opacity: 0;
-      transition: 0.5s;
-    }
 
     &.video_item__ {
 
@@ -74,13 +83,9 @@
         transform: translate(-50%, -50%);
       }
     }
-
-    &:hover {
-      .delete_uploaded_files_button__ {
-        opacity: 1;
-        visibility: visible;
-      }
-    }
-    
   }
+}
+
+.services_gallery_item_wrapper__ {
+  
 }
