@@ -421,4 +421,23 @@
     height: 44px;
     margin-inline-start: auto;
   }
+
+  &.upload_files_to_gallary_button__ {
+    .icon__ {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  &.delete_uploaded_files_button__ {
+    background-color: $secondRedColor;
+    padding: 5px;
+    min-width: fit-content;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: rgba($secondRedColor, 0.8);
+    }
+  }
 }

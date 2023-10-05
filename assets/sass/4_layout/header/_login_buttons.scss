@@ -19,6 +19,10 @@
     text-decoration: none;
     transition: 0.5s;
 
+    @include dir {
+      min-width: 130px;
+    }
+
     @include md {
       min-width: 130px;
     }
@@ -79,7 +83,7 @@
         background-color: transparent;
 
         @include xxs {
-          font-size: 12px;
+          font-size: 10px;
         }
         
         &:hover {

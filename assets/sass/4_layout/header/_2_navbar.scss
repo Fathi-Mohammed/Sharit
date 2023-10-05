@@ -10,6 +10,10 @@
     gap: 15px;
   }
 
+  @include dir {
+    gap: 20px;
+  }
+
   .close-button__,
   .nav_logo__ {
     display: none;
@@ -22,10 +26,16 @@
 
     @include md {
       gap: 10px;
+      
+    }
+
+    @include dir {
+      gap: 10px;
     }
 
 
     > li {
+      cursor: pointer;
 
       // &:not(:last-child) {
       //   margin-inline-end: 22px;
@@ -47,6 +57,17 @@
         position: relative;
         display: block;
         margin: 0;
+        text-align: start;
+
+        @include dir {
+          font-size: 12px;
+        }
+        
+        @include md {
+          @include dir {
+            font-size: 9px;
+          }
+        }
 
         &:hover {
           color: $primaryColor;
@@ -111,6 +132,7 @@
     background-color: $primaryColor;
     display: flex;
     flex-direction: column;
+    gap: 25px;
     
 
     .nav_logo__ {
@@ -118,7 +140,7 @@
       align-items: center;
       justify-content: center;
       margin: 0 auto;
-      margin-bottom: 40px;
+      // margin-bottom: 10px;
       max-width: 150px;
 
       img {
@@ -165,6 +187,7 @@
 
       @include dir {
         margin: 0;
+        padding: 0;
       }
 
       > li {
@@ -174,7 +197,7 @@
           padding: 10px 25px;
           display: block;
           margin: 0;
-          font-size: 14px;
+          font-size: 10px;
 
           &::after {
             content: none;
@@ -193,7 +216,7 @@
         &.active {
           a {
             color: $primaryColor;
-            font-size: 14px;
+            font-size: 10px;
             font-weight: 700;
   
             &::after,

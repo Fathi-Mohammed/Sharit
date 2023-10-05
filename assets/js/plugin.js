@@ -10,6 +10,7 @@ jQuery(document).ready(function ($) {
   uploadProfilePhoto();
   chatScrollDirectionDown();
   verificationTimer();
+  stopFancyboxOnClickOnDeleteButton();
 });
 
 // functions init
@@ -260,32 +261,39 @@ function chatScrollDirectionDown() {
 }
 
 function verificationTimer() {
-
-  $('#send_code_again_button__').on("click", function() {
-    let sendCodeAgainButton = document.getElementById("send_code_again_button__");
+  $("#send_code_again_button__").on("click", function () {
+    let sendCodeAgainButton = document.getElementById(
+      "send_code_again_button__"
+    );
     let countdown = document.querySelector(".timer__");
-    let counter = countdown.getAttribute('timerValueInSeconds');
-  
-    sendCodeAgainButton.classList.add('active');
-    countdown.classList.add('active');
-  
-  
-    let countdownInterval = setInterval(function() {
+    let counter = countdown.getAttribute("timerValueInSeconds");
+
+    sendCodeAgainButton.classList.add("active");
+    countdown.classList.add("active");
+
+    let countdownInterval = setInterval(function () {
       counter--;
-  
+
       let minutes = Math.floor(counter / 60);
       let seconds = counter % 60;
 
-  
-      countdown.innerHTML = `${minutes < 10 ? '0' + minutes : minutes} : ${seconds < 10 ? '0' + seconds : seconds}`;
-  
+      countdown.innerHTML = `${minutes < 10 ? "0" + minutes : minutes} : ${
+        seconds < 10 ? "0" + seconds : seconds
+      }`;
+
       if (counter <= 0) {
         clearInterval(countdownInterval);
-        sendCodeAgainButton.classList.remove('active');
-        countdown.classList.remove('active');
+        sendCodeAgainButton.classList.remove("active");
+        countdown.classList.remove("active");
       }
     }, 1000);
   });
-  
 }
 
+function stopFancyboxOnClickOnDeleteButton() {
+  $('.delete_uploaded_files_button__').click(function () {
+    $(this).parent().click(function (e) {
+      e.preventDefault()
+    })
+  })
+}

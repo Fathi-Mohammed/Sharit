@@ -25,6 +25,7 @@
     margin-bottom: 9px;
     color: $headingMainColor;
     text-transform: capitalize;
+    text-align: start;
 
     @include xxs {
       font-size: 12px;
@@ -36,8 +37,9 @@
     font-size: 14px;
     font-weight: 300;
     color: $paragraphMainColor;
-    max-width: 73%;
+    max-width: 85%;
     margin: 0;
+    text-align: start;
 
     @include xxs {
       font-size: 8px;
@@ -46,6 +48,10 @@
 
   .icon__ {
     margin: 0;
+
+    @include dir {
+      transform: rotate(180deg);
+    }
   }
 
   .link_wrapper__ {

@@ -10,7 +10,6 @@
     <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css" />
-
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/swiper.min.css" />
@@ -18,6 +17,9 @@
   </head>
 
   <body>
+    <!-- /////////////////////////////////////////////////////// -->
+    <!-- logged in provider header -->
+    <!-- /////////////////////////////////////////////////////// -->
     <!-- start header  -->
 
     <header class="main_header__">
@@ -38,7 +40,7 @@
               </figure>
 
               <ul class="nav-list-om list-unstyled">
-                <li class="header_list_item__">
+                <li class="header_list_item__ active">
                   <a href="index.html">الرئيسية</a>
                 </li>
                 <li class="header_list_item__">
@@ -58,7 +60,7 @@
               </ul>
 
               <ul class="toolbar_options__ list-unstyled">
-                <!-- <li class="block__ dropdown__ info_link_item__">
+                <li class="block__ dropdown__ info_link_item__">
                   <a class="info_link_block__" href="#!">
                     <figure class="figure__ icon__">
                       <img src="./assets/images/shapes/user.svg" alt="" />
@@ -68,10 +70,34 @@
                   </a>
                   <ul class="sub-menu__">
                     <li>
-                      <a class="my_requests" href="#"> طلباتي </a>
+                      <a
+                        class="my_requests"
+                        href="my_requests_provider_perspective.html"
+                      >
+                        طلباتي
+                      </a>
                     </li>
                     <li>
-                      <a class="modify_my_data" href="#"> تعديل بياناتي </a>
+                      <a
+                        class="modify_my_data"
+                        href="modify_my_data_provider.html"
+                      >
+                        تعديل بياناتي
+                      </a>
+                    </li>
+                    <li>
+                      <a class="wallet__" href="my_balance.html"> المحفظة </a>
+                    </li>
+                    <li>
+                      <a
+                        class="services_gallary__"
+                        href="services_gallery_upload_photos.html"
+                      >
+                        معرض الخدمات
+                      </a>
+                    </li>
+                    <li>
+                      <a class="package__" href="packages.html"> الباقات </a>
                     </li>
                     <li>
                       <label
@@ -99,28 +125,18 @@
                       </button>
                     </li>
                   </ul>
-                </li> -->
-
-                <li class="block__ sing_up_blocks_list_item__">
-                  <div class="sing-up-blocks">
-                    <a
-                      class="singup_link login_link"
-                      href="register_signin.html"
-                      >تسجيل الدخول</a
-                    >
-                    <a class="singup_link" href="register_signup.html">
-                      حساب جديد
-                    </a>
-                  </div>
                 </li>
 
-                <!-- <li class="block__ notification_list_item__">
-                  <a class="notification_link__ has_notification butt__" href="#!">  
+                <li class="block__ notification_list_item__">
+                  <a
+                    class="notification_link__ has_notification butt__"
+                    href="#!"
+                  >
                     <figure class="figure__">
                       <img src="assets/images/shapes/notification.svg" alt="" />
                     </figure>
                   </a>
-                </li> -->
+                </li>
 
                 <li class="block__ lang_list_item__">
                   <a class="lang_link__ butt__" href="#!">
@@ -187,7 +203,6 @@
 
           <form action="">
             <div class="input_group__ flex_group__ group_gap__">
-
               <label
                 class="upload_profile_photo_label"
                 for="upload_profile_photo_input"
@@ -206,7 +221,7 @@
                   <figure class="figure__ icon__ loading-omd">
                     <img
                       class="lazy-omd img-om"
-                      data-src="assets/images/shapes/gallery-export-linear.png"
+                      data-src="assets/images/shapes/camera.svg"
                       alt=".."
                     />
                   </figure>
@@ -227,7 +242,7 @@
                 </h6>
                 <p class="uploadProfile_parag__">
                   مع مراعاة أن صيغة الصورة تكون
-                  <br>
+                  <br />
                   PNG , JPG , JPEG
                 </p>
               </div>

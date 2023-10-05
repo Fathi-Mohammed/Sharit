@@ -1,8 +1,10 @@
-<svg id="vuesax_bulk_camera" data-name="vuesax/bulk/camera" xmlns="http://www.w3.org/2000/svg" width="37.972" height="37.972" viewBox="0 0 37.972 37.972">
-  <g id="camera">
-    <path id="Vector" d="M7.148,31.644H23.73c4.367,0,6.107-2.674,6.313-5.933l.823-13.069a5.938,5.938,0,0,0-5.933-6.313,2.6,2.6,0,0,1-2.294-1.408L21.5,2.626A5.222,5.222,0,0,0,17.258,0H13.635A5.226,5.226,0,0,0,9.379,2.626L8.24,4.921A2.6,2.6,0,0,1,5.946,6.329,5.938,5.938,0,0,0,.013,12.642L.835,25.711C1.025,28.97,2.781,31.644,7.148,31.644Z" transform="translate(3.547 3.164)" fill="#ea8803" opacity="0.4"/>
-    <path id="Vector-2" data-name="Vector" d="M5.933,2.373H1.187A1.2,1.2,0,0,1,0,1.187,1.2,1.2,0,0,1,1.187,0H5.933A1.2,1.2,0,0,1,7.12,1.187,1.2,1.2,0,0,1,5.933,2.373Z" transform="translate(15.426 11.471)" fill="#ea8803"/>
-    <path id="Vector-3" data-name="Vector" d="M10.7,5.348A5.348,5.348,0,1,1,5.348,0,5.348,5.348,0,0,1,10.7,5.348Z" transform="translate(13.638 17.989)" fill="#ea8803"/>
-    <path id="Vector-4" data-name="Vector" d="M0,0H37.972V37.972H0Z" fill="none" opacity="0"/>
+<svg id="camera_linear" data-name="camera/linear" xmlns="http://www.w3.org/2000/svg" width="26.33" height="26.33" viewBox="0 0 26.33 26.33">
+  <g id="vuesax_linear_camera" data-name="vuesax/linear/camera">
+    <g id="camera">
+      <path id="Vector" d="M4.957,21.942h11.5a3.989,3.989,0,0,0,4.377-4.114l.57-9.062a4.118,4.118,0,0,0-4.114-4.377A1.8,1.8,0,0,1,15.7,3.412l-.79-1.591A3.621,3.621,0,0,0,11.967,0H9.455A3.624,3.624,0,0,0,6.5,1.821l-.79,1.591a1.8,1.8,0,0,1-1.591.976A4.118,4.118,0,0,0,.009,8.766l.57,9.062A3.983,3.983,0,0,0,4.957,21.942Z" transform="translate(2.46 2.194)" fill="none" stroke="#ea8803" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H3.291" transform="translate(11.52 8.777)" fill="none" stroke="#ea8803" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Vector-3" data-name="Vector" d="M3.566,7.131A3.566,3.566,0,1,0,0,3.566,3.573,3.573,0,0,0,3.566,7.131Z" transform="translate(9.6 12.617)" fill="none" stroke="#ea8803" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H26.33V26.33H0Z" fill="none" opacity="0"/>
+    </g>
   </g>
 </svg>

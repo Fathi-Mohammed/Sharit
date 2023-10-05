@@ -20,6 +20,10 @@
     width: calc(100%/2 - 8px);
   }
 
+  @include dir {
+    padding: 20px 15px;
+  }
+
 
   .icon__ {
     min-width: 35px;
@@ -51,6 +55,10 @@
     @include xxs {
       font-size: 8px;
       margin-inline-start: 5px;
+    }
+
+    @include dir {
+      font-size: 13px;
     }
   }
 

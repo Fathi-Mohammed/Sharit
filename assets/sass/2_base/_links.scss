@@ -76,6 +76,7 @@
     font-size: 14px;
     font-weight: 400;
     transition: 0.5s;
+    text-align: start;
 
     @include xs {
       height: fit-content;
@@ -84,6 +85,16 @@
       font-weight: 275;
       width: 100%;
       gap: 10px;
+    }
+
+    @include dir {
+      font-size: 10px;
+      gap: 10px;
+      
+      @include xs {
+        font-size: 7px;
+        font-weight: 300;
+      }
     }
 
     &:not(:last-child) {

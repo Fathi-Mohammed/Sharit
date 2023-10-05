@@ -52,12 +52,13 @@
       font-size: 47px;
       margin-bottom: 18px;
       font-weight: 700;
-
+      text-align: start;
+      
       @include sm {
         font-size: 25px;
         margin-bottom: 10px;
       }
-
+      
       @include xxs {
         font-size: 14px;
       }
@@ -68,6 +69,7 @@
       font-weight: 300;
       color: #fff;
       margin-bottom: 45px;
+      text-align: start;
       
       @include sm   {
         font-size: 15px;
@@ -84,6 +86,7 @@
       font-weight: 300;
       color: #fff;
       margin-bottom: 34px;
+      text-align: start;
       
       @include sm   {
         margin-bottom: 10px;
@@ -98,6 +101,10 @@
 
   .figure__ {
     padding-bottom: 93.7%;
+
+    @include dir {
+      transform: scaleX(-1);
+    }
 
     @include xs {
       display: none;
@@ -185,11 +192,12 @@
     color: $primaryColor;
     margin-bottom: 20px;
     text-transform: capitalize;
-
+    text-align: start;
+    
     @include md {
       font-size: 30px;
     }
-
+    
     @include xs {
       font-size: 20px;
     }
@@ -198,11 +206,12 @@
       font-size: 14px;
     }
   }
-
+  
   .parag__ {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 50px;
+    text-align: start;
     
     @include md {
       font-size: 14px;
@@ -236,13 +245,17 @@
     inset-inline-end: 0;
     border-radius: 0 146px 146px 0;
     transform: translateY(-50%);
-
+    
     @include sm {
       height: 200px;
     }
-
+    
     @include xs {
       height: 100px;
+    }
+    
+    @include dir {
+      border-radius: 146px 0 0 146px;
     }
   }
 }
@@ -255,15 +268,16 @@
       font-weight: 400;
       text-transform: capitalize;
       margin-bottom: 20px;
-
+      
       @include xs {
         font-size: 17px;
         text-align: center;
         margin-bottom: 10px;
       }
     }
-  
+    
     .sub_title__ {
+      text-align: start;
       color: $paragraphFifthColor;
       font-size: 18px;
       font-weight: 400;
@@ -277,6 +291,7 @@
     }
     
     .parag__ {
+      text-align: start;
       font-size: 18px;
       font-weight: 300;
       color: $paragraphFifthColor;

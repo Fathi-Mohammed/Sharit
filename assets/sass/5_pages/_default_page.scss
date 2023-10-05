@@ -1,10 +1,8 @@
 .default_page__ {
-  padding-top: 45px;
   margin-bottom: 90px;
   // min-height: 600px;
 
   @include sm {
-    padding-top: 20px;
     margin-bottom: 30px;
   }
 }

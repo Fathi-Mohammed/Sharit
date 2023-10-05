@@ -1,0 +1,10 @@
+<svg id="slider-vertical_broken" data-name="slider-vertical/broken" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_broken_slider-vertical" data-name="vuesax/broken/slider-vertical">
+    <g id="slider-vertical">
+      <path id="Vector" d="M9.05,0H14a11.95,11.95,0,0,1,1.66.09C18.29.38,19,1.62,19,5V9c0,3.38-.71,4.62-3.34,4.91A11.95,11.95,0,0,1,14,14H5a11.95,11.95,0,0,1-1.66-.09C.71,13.62,0,12.38,0,9V5C0,1.62.71.38,3.34.09A11.95,11.95,0,0,1,5,0" transform="translate(2.5 5)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H15" transform="translate(4.5 2)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H15" transform="translate(5 22)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

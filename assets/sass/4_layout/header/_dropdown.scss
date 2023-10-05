@@ -23,7 +23,6 @@
     }
     
     &.info_link_block__ {
-      
       &::after {
         content: url(../images/shapes/arrow-down.svg);
         margin: 0;
@@ -107,6 +106,18 @@
         &.wallet__ {
           &::before {
             content: url(../images/shapes/wallet_for_header.svg);
+          }
+        }
+
+        &.services_gallary__ {
+          &::before {
+            content: url(../images/shapes/services_gallary__.svg);
+          }
+        }
+
+        &.package__ {
+          &::before {
+            content: url(../images/shapes/package__.svg);
           }
         }
 

@@ -1,0 +1,139 @@
+.package_card__ {
+  padding-inline-start: 45px ;
+  justify-content: unset;
+  height: 73px;
+  border-radius: $secondaryBorderRadius;
+  padding: 15px 25px;
+  background-color: rgba($secondaryColor , 0.1);
+  max-width: 342px;
+  display: flex;
+  align-items: center;
+
+  @include xs {
+    padding: 10px;
+    height: fit-content;
+  }
+
+  .package_info__ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    @include xxs {
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+    }
+  }
+
+  .title__ {
+    font-size: 13px;
+    font-weight: 400;
+    color: $secondaryColor;
+    margin-bottom: 7px;
+
+    @include xs {
+      font-size: 10px;
+      font-weight: 300;
+    }
+
+    @include xxs {
+      font-size: 9px;
+      text-align: center;
+    }
+  }
+
+  .sub_title__ {
+    color: $secondaryColor;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+
+    @include xs {
+      font-size: 10px;
+      font-weight: 275;
+    }
+
+    @include xxs {
+      text-align: center
+      ;
+    }
+  }
+
+  .price__ {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $secondaryColor;
+
+    @include xs {
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .currency__ {
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: -5px;
+      text-align: center;
+
+      @include xs {
+        font-size: 8px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .figure__ {
+    margin-inline-end: 15px;
+    transform: scale(1.2);
+    display: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.current_subscription__ {
+    background-color: rgba($secondaryColor , 1);
+    padding-inline-start: 25px !important;
+
+    .title__,
+    .sub_title__,
+    .price__ {
+      color: #fff;
+    }
+
+    .figure__ {
+      display: block;
+    }
+  }
+
+  &.current_subscription_info__ {
+    background-color: transparent;
+    padding: 0 !important;
+
+    @include xxs {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .title__ {
+      color: $headingFifthColor;
+
+      &.current_subscription_end__ {
+        .date__ {
+          color: $mainRedColor;
+        }
+      }
+    }
+
+    .figure__ {
+      display: block;
+    }
+  }
+  
+}

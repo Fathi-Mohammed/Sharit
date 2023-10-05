@@ -114,6 +114,7 @@
 .toolbar_options__ {
   display: flex;
   align-items: center;
+  padding: 0;
   // position: relative;
   z-index: 1;
   // margin-top: 10px;
@@ -162,10 +163,23 @@
         min-width: 100%;
       }
 
+      @include dir {
+        padding: 0 15px;
+        min-width: fit-content;
+      }
+
       .info_link_block__ {
         font-size: 13px;
         color: $primaryColor;
         font-weight: 400;
+
+        @include dir {
+          font-size: 10px;
+
+          @include xxs {
+            font-size: 8px;
+          }
+        }
 
         @include md {
           font-size: 10px;
@@ -213,7 +227,7 @@
 // small size
 @include sm {
   .toolbar_options__ {
-    margin-top: 20px;
+    // margin-top: 20px;
     width: 100%;
     min-width: 100%;
     flex-wrap: wrap;
