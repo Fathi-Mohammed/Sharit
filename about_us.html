@@ -10,7 +10,6 @@
     <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css" />
-
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/swiper.min.css" />
@@ -41,8 +40,8 @@
                 <li class="header_list_item__">
                   <a href="index.html">الرئيسية</a>
                 </li>
-                <li class="header_list_item__">
-                  <a class="" href="#home_page_about_us_section"
+                <li class="header_list_item__ active">
+                  <a class="" href="about_us.html"
                     >نبذة عن شريط</a
                   >
                 </li>
@@ -58,49 +57,6 @@
               </ul>
 
               <ul class="toolbar_options__ list-unstyled">
-                <!-- <li class="block__ dropdown__ info_link_item__">
-                  <a class="info_link_block__" href="#!">
-                    <figure class="figure__ icon__">
-                      <img src="./assets/images/shapes/user.svg" alt="" />
-                    </figure>
-                    مرحبا بك ,
-                    <span class="user_name__">خالد محسن</span>
-                  </a>
-                  <ul class="sub-menu__">
-                    <li>
-                      <a class="my_requests" href="#"> طلباتي </a>
-                    </li>
-                    <li>
-                      <a class="modify_my_data" href="#"> تعديل بياناتي </a>
-                    </li>
-                    <li>
-                      <label
-                        for="notification_checkbox"
-                        class="stop_notifications list_content__"
-                      >
-                        تعطيل الإشعارات
-
-                        <div class="checkbox_button_wrapper__">
-                          <input
-                            type="checkbox"
-                            id="notification_checkbox"
-                            name="checkbox"
-                          />
-                        </div>
-                      </label>
-                    </li>
-                    <li>
-                      <button
-                        class="signout_link__ list_content__"
-                        data-toggle="modal"
-                        data-target="#sign_out_modal"
-                      >
-                        تسجيل الخروج
-                      </button>
-                    </li>
-                  </ul>
-                </li> -->
-
                 <li class="block__ sing_up_blocks_list_item__">
                   <div class="sing-up-blocks">
                     <a
@@ -114,19 +70,12 @@
                   </div>
                 </li>
 
-                <!-- <li class="block__ notification_list_item__">
-                  <a class="notification_link__ has_notification butt__" href="#!">  
-                    <figure class="figure__">
-                      <img src="assets/images/shapes/notification.svg" alt="" />
-                    </figure>
-                  </a>
-                </li> -->
-
                 <li class="block__ lang_list_item__">
-                  <a class="lang_link__ butt__" href="#!">
-                    <figure class="figure__">
+                  <a class="lang_link__ butt__" href="index_en.html">
+                    <!-- <figure class="figure__">
                       <img src="assets/images/shapes/global.svg" alt="" />
-                    </figure>
+                    </figure> -->
+                    EN
                   </a>
                 </li>
               </ul>
@@ -178,50 +127,108 @@
 
     <!-- End Search Content -->
 
-    <main class="registeration_page__">
+    <!-- Start About Us -->
+
+    <section
+      class="about_us_section default_section__"
+      id="home_page_about_us_section"
+    >
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 col_flex col_center__">
-            <div class="main_form__">
-              <h2 class="registeration_title site_head__">تسجيل الدخول</h2>
-              <p class="registeration_sub_title">أدخل بياناتك لتسجيل الدخول</p>
-
-              <form action="">
-                <div
-                  class="input_group__ input_group_with_icon__ phone_input_group__"
-                >
-                  <input class="input__" type="text" placeholder="رقم الجوال" />
-                </div>
-                <div class="input_group__">
-                  <input
-                    class="submit-button__ full_width__ input__"
-                    type="submit"
-                    value="تسجيل الدخول"
+        <figure class="figure__ icon__ loading-omd logo__">
+          <img
+            class="lazy-omd img-om"
+            data-src="assets/images/about_us/logo.svg"
+            alt=".."
+          />
+        </figure>
+        <p class="main_parag__">
+          هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+          القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة
+          التي يقرأها.إفتراضي هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى
+        </p>
+        <p class="parag__">
+          هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
+          القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة
+          التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ
+          طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا
+          يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من
+          برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل
+          إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث
+          ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين
+          ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة،
+          وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.
+        </p>
+        <div class="cards_wrapper">
+          <div class="row">
+            <div class="col-4 col-sm-4">
+              <div class="about_us_card">
+                <figure class="figure__ icon__ loading-omd">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/various_services.svg"
+                    alt=".."
                   />
-                </div>
-
-                <p class="second_registration_title__">ليس لديك حساب ؟</p>
-
-                <a
-                  class="link__ submit-button__ full_width__ sign_up_link__"
-                  href="register_signup.html"
-                  >إنشاء حساب جديد</a
-                >
-              </form>
+                </figure>
+                <h3 class="title__">خدمات متنوعة</h3>
+                <p class="sub_title__">
+                  العديد من الخدمات المتنوعة في مختلف المجالات
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-6 col_flex col_center__">
-            <figure class="register_figure__ figure__ loading-omd asp-om">
-              <img
-                class="lazy-omd img-om"
-                data-src="assets/images/register/sign_in.png"
-                alt="..."
-              />
-            </figure>
+            <div class="col-4 col-sm-4">
+              <div class="about_us_card">
+                <figure class="figure__ icon__ loading-omd">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/provider_about_us_icon.svg"
+                    alt=".."
+                  />
+                </figure>
+                <h3 class="title__">مقدمي الخدمات</h3>
+                <p class="sub_title__">
+                  اخترنا لك أفضل مقدمي الخدمات للوصول إلى أفضل تجربة
+                </p>
+              </div>
+            </div>
+            <div class="col-4 col-sm-4">
+              <div class="about_us_card">
+                <figure class="figure__ icon__ loading-omd">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/shapes/about us_time_icon.svg"
+                    alt=".."
+                  />
+                </figure>
+                <h3 class="title__">سرعة التنفيذ</h3>
+                <p class="sub_title__">سرعة تنفيذ طلبك مع ضمان أعلى جودة</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+
+      <!-- Start section background shapes -->
+      <div
+        class="section_background_shapes_wrapper about_us_sec_shapes_wrapper about_us_shapes_first_wrapper"
+      >
+        <span class="shape"></span>
+        <span class="shape"></span>
+        <span class="shape"></span>
+        <span class="shape"></span>
+        <span class="shape"></span>
+      </div>
+      <div
+        class="section_background_shapes_wrapper about_us_sec_shapes_wrapper about_us_shapes_second_wrapper"
+      >
+        <span class="shape"></span>
+        <span class="shape"></span>
+        <span class="shape"></span>
+        <span class="shape"></span>
+      </div>
+      <!-- End section background shapes -->
+    </section>
+
+    <!-- End About Us -->
 
     <!-- Start Footer -->
 

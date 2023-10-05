@@ -1,0 +1,25 @@
+.no_request_wrapper__ {
+  .icon__ {
+    margin-top: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .title__ {
+    font-size: 19px;
+    font-weight: 500;
+    color: $headingFifthColor;
+    text-align: center;
+    margin: 0;
+  }
+
+  &.for_request_details__ {
+    .icon__ {
+      margin-top: 65px;
+      // animation: spin, clockRotate;
+      // animation-delay: 0.5s,0.5s;
+      // animation-duration: 1s;
+      // animation-iteration-count: infinite;
+    }
+  }
+
+}

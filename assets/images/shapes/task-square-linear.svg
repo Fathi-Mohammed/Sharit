@@ -1,0 +1,12 @@
+<svg id="task-square_linear" data-name="task-square/linear" xmlns="http://www.w3.org/2000/svg" width="166" height="166" viewBox="0 0 166 166">
+  <g id="vuesax_linear_task-square" data-name="vuesax/linear/task-square">
+    <g id="task-square">
+      <path id="Vector" d="M0,0H36.313" transform="translate(85.559 61.42)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <path id="Vector-2" data-name="Vector" d="M0,10.375l5.188,5.188L20.75,0" transform="translate(44.128 51.045)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H36.313" transform="translate(85.559 109.837)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <path id="Vector-4" data-name="Vector" d="M0,10.375l5.188,5.187L20.75,0" transform="translate(44.128 99.462)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <path id="Vector-5" data-name="Vector" d="M48.417,138.333h41.5c34.583,0,48.417-13.833,48.417-48.417v-41.5C138.333,13.833,124.5,0,89.917,0h-41.5C13.833,0,0,13.833,0,48.417v41.5C0,124.5,13.833,138.333,48.417,138.333Z" transform="translate(13.833 13.833)" fill="none" stroke="#cdcdcd" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H166V166H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

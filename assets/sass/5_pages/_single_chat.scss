@@ -1,5 +1,7 @@
 .chat_page__ {
-  max-width: 536px;
+  padding-top: 27px;
+  // max-width: 536px;
+  max-width: 736px;
   margin: 0 auto;
   padding-bottom: 45px;
 
@@ -59,13 +61,18 @@
     background-color: $primaryColor;
     color: #fff;
     padding: 15px;
-    width: 189px;
+    width: 489px;
     font-size: 12px;
     font-weight: 300;
     border-radius: $secondaryBorderRadius $secondaryBorderRadius 0
-      $secondaryBorderRadius;
+    $secondaryBorderRadius;
     margin: 0;
     margin-bottom: 10px;
+    
+    @include xs {
+      width: 80%;
+      
+    }
 
     &.with_photo_uploded__ {
       background-color: transparent;

@@ -9,6 +9,7 @@
 
     <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css" />
 
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
@@ -178,48 +179,96 @@
 
     <!-- End Search Content -->
 
-    <main class="registeration_page__">
+    <main class="request_details_page default_page__">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 col_flex col_center__">
-            <div class="main_form__">
-              <h2 class="registeration_title site_head__">تسجيل الدخول</h2>
-              <p class="registeration_sub_title">أدخل بياناتك لتسجيل الدخول</p>
-
-              <form action="">
-                <div
-                  class="input_group__ input_group_with_icon__ phone_input_group__"
-                >
-                  <input class="input__" type="text" placeholder="رقم الجوال" />
+        <div class="page_head_wrapper__">
+          <h2 class="page_title__ without_icon">تفاصيل الطلب</h2>
+        </div>
+        <div class="row row_modify with_row_gap">
+          <div class="col-12 col-lg-6 col_start__">
+            <div href="request_details.html" class="request_card__">
+              <h3 class="title__">بيانات الطلب</h3>
+              <div class="card_info_wrapper__">
+                <div class="img_block__">
+                  <figure class="figure__ loading-omd asp-om">
+                    <img
+                      class="lazy-omd img-om"
+                      data-src="assets/images/department_section/01.png"
+                      alt="..."
+                    />
+                  </figure>
                 </div>
-                <div class="input_group__">
-                  <input
-                    class="submit-button__ full_width__ input__"
-                    type="submit"
-                    value="تسجيل الدخول"
+                <div class="description_block__">
+                  <div class="description__">
+                    <div class="request_info__">
+                      <span class="request_info_title__ request_num__"
+                        >رقم الطلب</span
+                      >
+                      <span class="request_info_content">780#</span>
+                    </div>
+                    <div class="request_info__">
+                      <span class="request_info_title__ request_section__"
+                        >قسم الطلب</span
+                      >
+                      <span class="request_info_content">تصوير زواج</span>
+                    </div>
+                    <div class="request_info__">
+                      <span class="request_info_title__ request_date__"
+                        >تاريخ الطلب</span
+                      >
+                      <span class="request_info_content">10 ذو الحجة 1444</span>
+                    </div>
+                    <div class="request_info__">
+                      <span class="request_info_title__ request_date__"
+                        >المدينة</span
+                      >
+                      <span class="request_info_content">الرياض</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="waiting_blocks waiting_for_receive_offer_from_providers"
+              >
+                <figure class="figure__ icon__">
+                  <img
+                    class="img-om"
+                    src="assets/images/shapes/wait.svg"
+                    alt=".."
                   />
-                </div>
-
-                <p class="second_registration_title__">ليس لديك حساب ؟</p>
-
-                <a
-                  class="link__ submit-button__ full_width__ sign_up_link__"
-                  href="register_signup.html"
-                  >إنشاء حساب جديد</a
-                >
-              </form>
+                </figure>
+                في إنتظار تلقي عروض مقدمي الخدمات
+              </div>
             </div>
           </div>
-          <div class="col-6 col_flex col_center__">
-            <figure class="register_figure__ figure__ loading-omd asp-om">
-              <img
-                class="lazy-omd img-om"
-                data-src="assets/images/register/sign_in.png"
-                alt="..."
-              />
-            </figure>
+          <div class="col-12 col-lg-6 col_start__">
+            <div class="request_details_description__">
+              <h3 class="title__">نص الطلب</h3>
+              <p class="parag__">
+                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+                سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع
+                الفقرات في الصفحة التي يقرأها.إفتراضي هناك حقيقة مثبتة منذ زمن
+                طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي
+                يقرأها.إفتراضي هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى
+                المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص
+                أو شكل توضع الفقرات في الصفحة التي يقرأها.إفتراضي هناك حقيقة
+                مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+              </p>
+            </div>
           </div>
         </div>
+        <div class="providers_offers_section__">
+          <h2 class="title__">عروض مقمي الخدمات</h2>
+
+          <div class="no_request_wrapper__ for_request_details__">
+            <figure class="figure__ icon__ center">
+              <img src="assets/images/shapes/timer.svg" alt="" />
+            </figure>
+            <h4 class="title__">في إنتظار تلقي عروض مقدمي الخدمات</h4>
+          </div>
+        </div>
+        
       </div>
     </main>
 
@@ -326,6 +375,238 @@
 
     <!-- End Footer -->
 
+    <!-- Start Modal -->
+    <!-- rating modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="rating_provider_modals"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <h2 class="title">تقييم مقدم الخدمة</h2>
+            <p class="sub_title__">
+              يمكنك تقييم مقدم الخدمة بناء على تجربتك وما قدمه إليك
+            </p>
+            <div class="customer_evaluation_icon_wrapper">
+              <div class="customer_rating_wrapper__">
+                <div class="rating-group">
+                  <input
+                    disabled
+                    checked
+                    class="rating__input rating__input--none"
+                    name="rating3"
+                    id="rating3-none"
+                    value="0"
+                    type="radio"
+                  />
+
+                  <label
+                    aria-label="1 star"
+                    class="rating__label"
+                    for="rating3-1"
+                    ><i class="rating__icon rating__icon--star fa fa-star"></i
+                  ></label>
+                  <input
+                    class="rating__input"
+                    name="rating3"
+                    id="rating3-1"
+                    value="1"
+                    type="radio"
+                  />
+
+                  <label
+                    aria-label="2 stars"
+                    class="rating__label"
+                    for="rating3-2"
+                    ><i class="rating__icon rating__icon--star fa fa-star"></i
+                  ></label>
+                  <input
+                    class="rating__input"
+                    name="rating3"
+                    id="rating3-2"
+                    value="2"
+                    type="radio"
+                  />
+
+                  <label
+                    aria-label="3 stars"
+                    class="rating__label"
+                    for="rating3-3"
+                    ><i class="rating__icon rating__icon--star fa fa-star"></i
+                  ></label>
+                  <input
+                    class="rating__input"
+                    name="rating3"
+                    id="rating3-3"
+                    value="3"
+                    type="radio"
+                  />
+
+                  <label
+                    aria-label="4 stars"
+                    class="rating__label"
+                    for="rating3-4"
+                    ><i class="rating__icon rating__icon--star fa fa-star"></i
+                  ></label>
+                  <input
+                    class="rating__input"
+                    name="rating3"
+                    id="rating3-4"
+                    value="4"
+                    type="radio"
+                  />
+
+                  <label
+                    aria-label="5 stars"
+                    class="rating__label"
+                    for="rating3-5"
+                    ><i class="rating__icon rating__icon--star fa fa-star"></i
+                  ></label>
+                  <input
+                    class="rating__input"
+                    name="rating3"
+                    id="rating3-5"
+                    value="5"
+                    type="radio"
+                  />
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close"
+              data-toggle="modal"
+              data-target="#rating_done_modal"
+            >
+              إرسال التقييم
+            </button>
+            <button
+              type="button"
+              class="close_modal_button submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- rating done modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="rating_done_modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <figure class="figure__ icon__">
+              <img
+                class="img-om"
+                src="assets/images/shapes/rating.png"
+                alt="..."
+              />
+            </figure>
+            <h2 class="title">قبول العرض</h2>
+            <p class="sub_title__">هل أنت متأكد من قبول هذا العرض</p>
+            <button
+              type="button"
+              class="close_modal_button submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- accept_deal_modal modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="accept_deal_modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <h2 class="title">قبول العرض</h2>
+            <p class="sub_title__">هل أنت متأكد من قبول هذا العرض</p>
+            <div
+              class="provider_offer_card provider_offer_second_body_card modal_body_card__"
+            >
+              <div class="img_wrapper center__">
+                <figure class="figure__ loading-omd asp-om">
+                  <img
+                    class="lazy-omd img-om"
+                    data-src="assets/images/providers/01.jpg"
+                    alt="..."
+                  />
+                </figure>
+              </div>
+              <div class="description_wrapper__">
+                <div class="name_and_rating_wrapper__">
+                  <h3 class="provider_name__">محمود إبراهيم</h3>
+                  <div class="provider_rating_wrapper__">
+                    <i class="rating_star_icon__ fa fa-star active"></i>
+                    <i class="rating_star_icon__ fa fa-star active"></i>
+                    <i class="rating_star_icon__ fa fa-star active"></i>
+                    <i class="rating_star_icon__ fa fa-star active"></i>
+                    <i class="rating_star_icon__ fa fa-star"></i>
+
+                    <p class="rating_with_number">(4.2)</p>
+                  </div>
+                </div>
+                <h5 class="price__">
+                  500.00
+                  <span class="currency__">ر.س</span>
+                </h5>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close"
+              data-toggle="modal"
+              data-target="#payment_done"
+            >
+              تأكيد وسداد المبلغ
+            </button>
+            <button
+              type="button"
+              class="close_modal_button submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- sign_out_modal -->
 
     <div
@@ -368,6 +649,8 @@
         </div>
       </div>
     </div>
+
+    <!-- End Modal -->
 
     <!-- start js include  -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
