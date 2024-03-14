@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
   uploadProfilePhoto();
   chatScrollDirectionDown();
   verificationTimer();
-  stopFancyboxOnClickOnDeleteButton();
+  // stopFancyboxOnClickOnDeleteButton();
 });
 
 // functions init

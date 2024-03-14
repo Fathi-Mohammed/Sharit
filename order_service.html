@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
@@ -179,198 +180,70 @@
 
     <!-- Start Single Page -->
 
-    <main class="service_department default_page__">
+    <main class="single_department_section_page default_page__">
       <div class="container">
-        <div class="services_card__">
-          <div class="img_wrapper__">
+        <div class="row">
+          <div class="col-12 col-md-6">
             <figure class="figure__ loading-omd asp-om">
               <img
                 class="lazy-omd img-om"
-                data-src="assets/images/service_department/01.jpg"
+                data-src="assets/images/department_section/01.png"
                 alt="..."
               />
             </figure>
           </div>
-          <div class="description_wrapper__">
-            <h4 class="title__">التصوير</h4>
+
+          <div class="col-12 col-md-6">
+            <h3 class="head_title__">تصوير زواج</h3>
+            <p class="sub_title__">نبذة عن الخدمة</p>
+
             <p class="parag__">
               هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
               سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
-              في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها
-              تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد
-              محتوى
+              في الصفحة التي يقرأها.إفتراضي هناك حقيقة مثبتة منذ زمن طويل وهي أن
+              المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي
+              للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.إفتراضي
             </p>
-          </div>
-        </div>
+            <h5 class="title__">
+              لطلب الخدمة قم بتحديد توجيه الطلب الخاص بك وكتابة تفاصيل طلبك
+            </h5>
 
-        <div class="row row_modify with_row_gap">
-          <div class="col-12 col-md-6">
-            <a
-              href="service_department_section.html"
-              class="service_department_section_card__"
+            <form action="">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="input_group__">
+                    <select class="select__ selectpicker">
+                      <option value="">اختر المدينة</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="input_group__">
+                    <input type='text' class="input__" placeholder="التاريخ" id="hijri-date-input" />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="input_group__">
+                    <textarea
+                      class="input__ textarea-om"
+                      placeholder="تفاصيل الطلب"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <button
+              class="submit-button__ full_width__"
+              type="button"
+              data-toggle="modal"
+              data-target="#sent_request_modal"
             >
-              <div class="img_wrapper__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/service_department/02.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-
-              <div class="description_wrapper__">
-                <h4 class="title__">التصوير</h4>
-                <p class="sub_title__">تصوير كل ما يلزم عيد الميلاد</p>
-              </div>
-              <figure class="icon__">
-                <img
-                  class="img-om"
-                  src="assets/images/shapes/arrow-left.svg"
-                  alt=".."
-                />
-              </figure>
-            </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <a
-              href="service_department_section.html"
-              class="service_department_section_card__"
-            >
-              <div class="img_wrapper__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/service_department/02.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-
-              <div class="description_wrapper__">
-                <h4 class="title__">التصوير</h4>
-                <p class="sub_title__">تصوير كل ما يلزم عيد الميلاد</p>
-              </div>
-              <figure class="icon__">
-                <img
-                  class="img-om"
-                  src="assets/images/shapes/arrow-left.svg"
-                  alt=".."
-                />
-              </figure>
-            </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <a
-              href="service_department_section.html"
-              class="service_department_section_card__"
-            >
-              <div class="img_wrapper__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/service_department/02.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-
-              <div class="description_wrapper__">
-                <h4 class="title__">التصوير</h4>
-                <p class="sub_title__">تصوير كل ما يلزم عيد الميلاد</p>
-              </div>
-              <figure class="icon__">
-                <img
-                  class="img-om"
-                  src="assets/images/shapes/arrow-left.svg"
-                  alt=".."
-                />
-              </figure>
-            </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <a
-              href="service_department_section.html"
-              class="service_department_section_card__"
-            >
-              <div class="img_wrapper__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/service_department/02.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-
-              <div class="description_wrapper__">
-                <h4 class="title__">التصوير</h4>
-                <p class="sub_title__">تصوير كل ما يلزم عيد الميلاد</p>
-              </div>
-              <figure class="icon__">
-                <img
-                  class="img-om"
-                  src="assets/images/shapes/arrow-left.svg"
-                  alt=".."
-                />
-              </figure>
-            </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <a
-              href="service_department_section.html"
-              class="service_department_section_card__"
-            >
-              <div class="img_wrapper__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/service_department/02.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-
-              <div class="description_wrapper__">
-                <h4 class="title__">التصوير</h4>
-                <p class="sub_title__">تصوير كل ما يلزم عيد الميلاد</p>
-              </div>
-              <figure class="icon__">
-                <img
-                  class="img-om"
-                  src="assets/images/shapes/arrow-left.svg"
-                  alt=".."
-                />
-              </figure>
-            </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <a
-              href="service_department_section.html"
-              class="service_department_section_card__"
-            >
-              <div class="img_wrapper__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/service_department/02.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-
-              <div class="description_wrapper__">
-                <h4 class="title__">التصوير</h4>
-                <p class="sub_title__">تصوير كل ما يلزم عيد الميلاد</p>
-              </div>
-              <figure class="icon__">
-                <img
-                  class="img-om"
-                  src="assets/images/shapes/arrow-left.svg"
-                  alt=".."
-                />
-              </figure>
-            </a>
+              إرسال الطلب
+            </button>
           </div>
         </div>
       </div>
@@ -483,6 +356,48 @@
 
     <!-- Start Modal -->
 
+    <!-- send request Done modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="sent_request_modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <figure class="figure__ icon__ loading-omd">
+              <img
+                class="lazy-omd img-om"
+                data-src="assets/images/shapes/sent.svg"
+                alt="..."
+              />
+            </figure>
+
+            <h2 class="title">تم إرسال طلبك بنجاح</h2>
+            <p class="sub_title__">
+              تم إرسال طلبك بنجاح وفي إنتظار عروض مقدمي الخدمات
+            </p>
+            <button type="button" class="submit-button__ full_width__">
+              عرض تفاصيل الطلب
+            </button>
+            <button
+              type="button"
+              class="close_modal_button submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- sign_out_modal -->
 
     <div
@@ -535,7 +450,17 @@
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/bootstrap-hijri-datetimepicker.min.js"></script>
     <script src="assets/js/swiper.min.js"></script>
     <script src="assets/js/plugin.js"></script>
+    <script type="text/javascript">
+
+      $(function () {
+
+          $("#hijri-date-input").hijriDatePicker();
+
+      });
+
+  </script>
   </body>
 </html>

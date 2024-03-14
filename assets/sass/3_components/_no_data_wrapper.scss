@@ -1,0 +1,17 @@
+.no_data_wrapper__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+
+  .icon__ {
+    width: 200px;
+  }
+
+  .text__ {
+    color: $secondaryGreyColor;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+}

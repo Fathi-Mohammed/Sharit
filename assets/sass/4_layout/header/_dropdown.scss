@@ -115,6 +115,12 @@
           }
         }
 
+        &.priced_service {
+          &::before {
+            content: url(../images/shapes/db.svg);
+          }
+        }
+
         &.package__ {
           &::before {
             content: url(../images/shapes/package__.svg);

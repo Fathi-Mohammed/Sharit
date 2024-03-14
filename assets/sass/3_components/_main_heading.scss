@@ -33,7 +33,11 @@
         display: block;
       }
     }
-  }
+
+    &.without_margin__ {
+      margin-bottom: 0 !important;
+    }
+    }
 
   .sub_title__ {
     font-size: 18px;

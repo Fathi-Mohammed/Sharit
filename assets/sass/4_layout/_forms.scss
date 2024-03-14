@@ -612,11 +612,50 @@
         font-weight: 600;
         margin-top: -5px;
       }
+
+      &.grey_color__ {
+        color: $greyColor !important;
+      }
     }
 
     .figure__ {
       margin-inline-end: 15px;
       transform: scale(1.2);
     }
+  }
+}
+
+.price_wrapper__ {
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .price_title__ {
+    font-size: 13px;
+    font-weight: 400;
+    color: $headingMainColor;
+    text-align: start;
+  }
+}
+
+.price__ {
+  margin-inline-start: auto;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $secondaryColor;
+
+  .currency__ {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -5px;
+  }
+
+  &.grey_color__ {
+    color: $secondaryGreyColor !important;
   }
 }

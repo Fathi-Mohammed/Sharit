@@ -48,13 +48,13 @@
                   >
                 </li>
                 <li class="header_list_item__">
-                  <a href="#home_page_our_services_section">الأقسام والخدمات</a>
+                  <a href="our_services_section.html">الأقسام والخدمات</a>
                 </li>
                 <li class="header_list_item__">
-                  <a href="#home_page_download_app_section">حمل التطبيق</a>
+                  <a href="download_app.html">حمل التطبيق</a>
                 </li>
                 <li class="header_list_item__">
-                  <a href="#home_page_contact_us_section">تواصل معنا</a>
+                  <a href="contact_us.html">تواصل معنا</a>
                 </li>
               </ul>
 
@@ -143,12 +143,10 @@
                 class="svg-inline--fa fa-bars fa-w-14"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-              >
+                viewBox="0 0 448 512">
                 <path
                   fill="currentColor"
-                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-                ></path>
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
               </svg>
             </button>
             <!-- end active nenu button in small sizes  -->
@@ -170,8 +168,7 @@
             <img
               class="img-om"
               src="assets/images/shapes/search.svg"
-              alt=".."
-            />
+              alt=".." />
           </figure>
         </div>
       </div>
@@ -179,10 +176,26 @@
 
     <!-- End Search Content -->
 
-    <main class="request_details_page default_page__">
+    <main
+      class="request_details_page request_details_povider_page default_page__">
       <div class="container">
-        <div class="page_head_wrapper__">
+        <div class="page_head_wrapper__ with_tabs_wrapper__">
           <h2 class="page_title__ without_icon">تفاصيل الطلب</h2>
+          <!-- <button
+            class="submit-button__ provider_send_offer_button"
+            data-toggle="modal"
+            data-target="#send_deal_offer_modal"
+          >
+            أرسل عرضك
+          </button> -->
+
+          <!-- <button
+            class="submit-button__ provider_finish_offer_button"
+            data-toggle="modal"
+            data-target="#finish_offer_modal"
+          >
+            إنهاء الطلب
+          </button> -->
         </div>
         <div class="row row_modify with_row_gap">
           <div class="col-12 col-lg-6 col_start__">
@@ -194,8 +207,7 @@
                     <img
                       class="lazy-omd img-om"
                       data-src="assets/images/department_section/01.png"
-                      alt="..."
-                    />
+                      alt="..." />
                   </figure>
                 </div>
                 <div class="description_block__">
@@ -227,18 +239,6 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="waiting_blocks waiting_for_receive_offer_from_providers"
-              >
-                <figure class="figure__ icon__">
-                  <img
-                    class="img-om"
-                    src="assets/images/shapes/wait.svg"
-                    alt=".."
-                  />
-                </figure>
-                في إنتظار تلقي عروض مقدمي الخدمات
-              </div>
             </div>
           </div>
           <div class="col-12 col-lg-6 col_start__">
@@ -257,25 +257,22 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="providers_offers_section__">
-          <h2 class="title__">عروض مقمي الخدمات</h2>
-
-          <div class="row row_modify with_row_gap">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="provider_offer_card provider_offer_second_body_card">
-                <div class="img_wrapper">
+          <div class="col-12 col-lg-6">
+            <div class="section_wrapper__">
+              <h2 class="title__">بيانات العميل</h2>
+              <div class="client_info_card">
+                <div class="img_wrapper__">
                   <figure class="figure__ loading-omd asp-om">
                     <img
                       class="lazy-omd img-om"
-                      data-src="assets/images/providers/01.jpg"
-                      alt="..."
-                    />
+                      data-src="assets/images/shapes/client_card_img.svg"
+                      alt="..." />
                   </figure>
                 </div>
+
                 <div class="description_wrapper__">
                   <div class="name_and_rating_wrapper__">
-                    <h3 class="provider_name__">محمود إبراهيم</h3>
+                    <h3 class="client_name">محمود إبراهيم</h3>
                     <div class="provider_rating_wrapper__">
                       <i class="rating_star_icon__ fa fa-star active"></i>
                       <i class="rating_star_icon__ fa fa-star active"></i>
@@ -286,227 +283,36 @@
                       <p class="rating_with_number">(4.2)</p>
                     </div>
                   </div>
-
-                  <div class="button_wrapper__ with_background__">
-                    <h5 class="price__">
-                      500.00
-                      <span class="currency__">ر.س</span>
-                    </h5>
-                    <button
-                      class="submit-button__ full_width__"
-                      data-toggle="modal"
-                      data-target="#accept_deal_modal"
-                    >
-                    قبول العرض
-                    </button>
-                  </div>
                 </div>
+
+                <!-- <a href="chat.html" class="submit-button__ chat_clinte_link__">
+                  <figure class="icon__">
+                    <img
+                      class="img-om"
+                      src="assets/images/shapes/message-text-linear.svg"
+                      alt="..."
+                    />
+                  </figure>
+                  مراسلة
+                </a> -->
+
+                <button
+                  type="button"
+                  class="submit-button__ rating_clinte_button__"
+                  data-toggle="modal"
+                  data-target="#rating_provider_modals">
+                  تقييم العميل
+                </button>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="provider_offer_card provider_offer_second_body_card">
-                <div class="img_wrapper">
-                  <figure class="figure__ loading-omd asp-om">
-                    <img
-                      class="lazy-omd img-om"
-                      data-src="assets/images/providers/01.jpg"
-                      alt="..."
-                    />
-                  </figure>
-                </div>
-                <div class="description_wrapper__">
-                  <div class="name_and_rating_wrapper__">
-                    <h3 class="provider_name__">محمود إبراهيم</h3>
-                    <div class="provider_rating_wrapper__">
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star"></i>
-
-                      <p class="rating_with_number">(4.2)</p>
-                    </div>
-                  </div>
-
-                  <div class="button_wrapper__ with_background__">
-                    <h5 class="price__">
-                      500.00
-                      <span class="currency__">ر.س</span>
-                    </h5>
-                    <button
-                      class="submit-button__ full_width__"
-                      data-toggle="modal"
-                      data-target="#accept_deal_modal"
-                    >
-                    قبول العرض
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="provider_offer_card provider_offer_second_body_card">
-                <div class="img_wrapper">
-                  <figure class="figure__ loading-omd asp-om">
-                    <img
-                      class="lazy-omd img-om"
-                      data-src="assets/images/providers/01.jpg"
-                      alt="..."
-                    />
-                  </figure>
-                </div>
-                <div class="description_wrapper__">
-                  <div class="name_and_rating_wrapper__">
-                    <h3 class="provider_name__">محمود إبراهيم</h3>
-                    <div class="provider_rating_wrapper__">
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star"></i>
-
-                      <p class="rating_with_number">(4.2)</p>
-                    </div>
-                  </div>
-
-                  <div class="button_wrapper__ with_background__">
-                    <h5 class="price__">
-                      500.00
-                      <span class="currency__">ر.س</span>
-                    </h5>
-                    <button
-                      class="submit-button__ full_width__"
-                      data-toggle="modal"
-                      data-target="#accept_deal_modal"
-                    >
-                    قبول العرض
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="provider_offer_card provider_offer_second_body_card">
-                <div class="img_wrapper">
-                  <figure class="figure__ loading-omd asp-om">
-                    <img
-                      class="lazy-omd img-om"
-                      data-src="assets/images/providers/01.jpg"
-                      alt="..."
-                    />
-                  </figure>
-                </div>
-                <div class="description_wrapper__">
-                  <div class="name_and_rating_wrapper__">
-                    <h3 class="provider_name__">محمود إبراهيم</h3>
-                    <div class="provider_rating_wrapper__">
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star"></i>
-
-                      <p class="rating_with_number">(4.2)</p>
-                    </div>
-                  </div>
-
-                  <div class="button_wrapper__ with_background__">
-                    <h5 class="price__">
-                      500.00
-                      <span class="currency__">ر.س</span>
-                    </h5>
-                    <button
-                      class="submit-button__ full_width__"
-                      data-toggle="modal"
-                      data-target="#accept_deal_modal"
-                    >
-                    قبول العرض
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="provider_offer_card provider_offer_second_body_card">
-                <div class="img_wrapper">
-                  <figure class="figure__ loading-omd asp-om">
-                    <img
-                      class="lazy-omd img-om"
-                      data-src="assets/images/providers/01.jpg"
-                      alt="..."
-                    />
-                  </figure>
-                </div>
-                <div class="description_wrapper__">
-                  <div class="name_and_rating_wrapper__">
-                    <h3 class="provider_name__">محمود إبراهيم</h3>
-                    <div class="provider_rating_wrapper__">
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star"></i>
-
-                      <p class="rating_with_number">(4.2)</p>
-                    </div>
-                  </div>
-
-                  <div class="button_wrapper__ with_background__">
-                    <h5 class="price__">
-                      500.00
-                      <span class="currency__">ر.س</span>
-                    </h5>
-                    <button
-                      class="submit-button__ full_width__"
-                      data-toggle="modal"
-                      data-target="#accept_deal_modal"
-                    >
-                    قبول العرض
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="provider_offer_card provider_offer_second_body_card">
-                <div class="img_wrapper">
-                  <figure class="figure__ loading-omd asp-om">
-                    <img
-                      class="lazy-omd img-om"
-                      data-src="assets/images/providers/01.jpg"
-                      alt="..."
-                    />
-                  </figure>
-                </div>
-                <div class="description_wrapper__">
-                  <div class="name_and_rating_wrapper__">
-                    <h3 class="provider_name__">محمود إبراهيم</h3>
-                    <div class="provider_rating_wrapper__">
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star active"></i>
-                      <i class="rating_star_icon__ fa fa-star"></i>
-
-                      <p class="rating_with_number">(4.2)</p>
-                    </div>
-                  </div>
-
-                  <div class="button_wrapper__ with_background__">
-                    <h5 class="price__">
-                      500.00
-                      <span class="currency__">ر.س</span>
-                    </h5>
-                    <button
-                      class="submit-button__ full_width__"
-                      data-toggle="modal"
-                      data-target="#accept_deal_modal"
-                    >
-                    قبول العرض
-                    </button>
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="section_wrapper__">
+              <h2 class="title__">سعر العرض</h2>
+              <h5 class="price__">
+                500.00
+                <span class="currency__">ر.س</span>
+              </h5>
             </div>
           </div>
         </div>
@@ -543,8 +349,7 @@
                       src="./assets/images/socials/twitter.svg"
                       alt=".."
                       width=""
-                      height=""
-                    />
+                      height="" />
                   </a>
                 </li>
                 <li class="li__">
@@ -554,8 +359,7 @@
                       src="./assets/images/socials/snap_chat.svg"
                       alt=".."
                       width=""
-                      height=""
-                    />
+                      height="" />
                   </a>
                 </li>
                 <li class="li__">
@@ -565,8 +369,7 @@
                       src="./assets/images/socials/facebook.svg"
                       alt=".."
                       width=""
-                      height=""
-                    />
+                      height="" />
                   </a>
                 </li>
                 <li class="li__">
@@ -576,8 +379,7 @@
                       src="./assets/images/socials/what's_up.svg"
                       alt=".."
                       width=""
-                      height=""
-                    />
+                      height="" />
                   </a>
                 </li>
                 <li class="li__">
@@ -587,8 +389,7 @@
                       src="./assets/images/socials/instagram.svg"
                       alt=".."
                       width=""
-                      height=""
-                    />
+                      height="" />
                   </a>
                 </li>
               </ul>
@@ -599,16 +400,14 @@
           <img
             class="copyright_icon__"
             src="./assets/images/shapes/copyright.png"
-            alt=".."
-          />
+            alt=".." />
 
           جميع الحقوق محفوظة - تصميم وبرمجة
           <a href="#!">
             <img
               class="copyright_logo__"
               src="./assets/images/shapes/copyrights.svg"
-              alt=".."
-            />
+              alt=".." />
           </a>
         </div>
       </div>
@@ -626,8 +425,7 @@
       data-bs-keyboard="false"
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal_block__">
@@ -645,8 +443,7 @@
                     name="rating3"
                     id="rating3-none"
                     value="0"
-                    type="radio"
-                  />
+                    type="radio" />
 
                   <label
                     aria-label="1 star"
@@ -659,8 +456,7 @@
                     name="rating3"
                     id="rating3-1"
                     value="1"
-                    type="radio"
-                  />
+                    type="radio" />
 
                   <label
                     aria-label="2 stars"
@@ -673,8 +469,7 @@
                     name="rating3"
                     id="rating3-2"
                     value="2"
-                    type="radio"
-                  />
+                    type="radio" />
 
                   <label
                     aria-label="3 stars"
@@ -687,8 +482,7 @@
                     name="rating3"
                     id="rating3-3"
                     value="3"
-                    type="radio"
-                  />
+                    type="radio" />
 
                   <label
                     aria-label="4 stars"
@@ -701,8 +495,7 @@
                     name="rating3"
                     id="rating3-4"
                     value="4"
-                    type="radio"
-                  />
+                    type="radio" />
 
                   <label
                     aria-label="5 stars"
@@ -715,8 +508,7 @@
                     name="rating3"
                     id="rating3-5"
                     value="5"
-                    type="radio"
-                  />
+                    type="radio" />
                 </div>
               </div>
             </div>
@@ -726,16 +518,14 @@
               data-dismiss="modal"
               aria-label="Close"
               data-toggle="modal"
-              data-target="#rating_done_modal"
-            >
+              data-target="#rating_done_modal">
               إرسال التقييم
             </button>
             <button
               type="button"
               class="close_modal_button submit-button__ full_width__"
               data-dismiss="modal"
-              aria-label="Close"
-            >
+              aria-label="Close">
               إغلاق
             </button>
           </div>
@@ -752,8 +542,7 @@
       data-bs-keyboard="false"
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal_block__">
@@ -761,87 +550,38 @@
               <img
                 class="img-om"
                 src="assets/images/shapes/rating.png"
-                alt="..."
-              />
+                alt="..." />
             </figure>
-            <h2 class="title">قبول العرض</h2>
-            <p class="sub_title__">هل أنت متأكد من قبول هذا العرض</p>
+            <h2 class="title">تم إرسال تقييمك</h2>
+            <p class="sub_title__">تم إرسال تقييمك للعميل بنجاح</p>
             <button
               type="button"
               class="close_modal_button submit-button__ full_width__"
               data-dismiss="modal"
-              aria-label="Close"
-            >
+              aria-label="Close">
               إغلاق
             </button>
           </div>
         </div>
       </div>
     </div>
-    <!-- accept_deal_modal modal -->
+    <!-- send deal offer modal -->
 
     <div
       class="modal fade deal_modal_report"
-      id="accept_deal_modal"
+      id="send_deal_offer_modal"
       data-bs-backdrop="static"
       data-bs-keyboard="false"
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal_block__">
-            <h2 class="title">قبول العرض</h2>
-            <p class="sub_title__">هل أنت متأكد من قبول هذا العرض</p>
-            <div
-              class="provider_offer_card provider_offer_second_body_card modal_body_card__"
-            >
-              <div class="img_wrapper center__">
-                <figure class="figure__ loading-omd asp-om">
-                  <img
-                    class="lazy-omd img-om"
-                    data-src="assets/images/providers/01.jpg"
-                    alt="..."
-                  />
-                </figure>
-              </div>
-              <div class="description_wrapper__">
-                <div class="name_and_rating_wrapper__">
-                  <h3 class="provider_name__">محمود إبراهيم</h3>
-                  <div class="provider_rating_wrapper__">
-                    <i class="rating_star_icon__ fa fa-star active"></i>
-                    <i class="rating_star_icon__ fa fa-star active"></i>
-                    <i class="rating_star_icon__ fa fa-star active"></i>
-                    <i class="rating_star_icon__ fa fa-star active"></i>
-                    <i class="rating_star_icon__ fa fa-star"></i>
-
-                    <p class="rating_with_number">(4.2)</p>
-                  </div>
-                </div>
-                <div class="price_wrapper__">
-                  <span class="price_title__">السعر</span>
-                  <h5 class="price__ grey_color__">
-                    500.00
-                    <span class="currency__">ر.س</span>
-                  </h5>
-                </div>
-                <div class="price_wrapper__">
-                  <span class="price_title__">عمولة التطبيق</span>
-                  <h5 class="price__ grey_color__">
-                    50.00
-                    <span class="currency__">ر.س</span>
-                  </h5>
-                </div>
-                <div class="price_wrapper__">
-                  <span class="price_title__">المجموع</span>
-                  <h5 class="price__">
-                    550.00
-                    <span class="currency__">ر.س</span>
-                  </h5>
-                </div>
-              
-              </div>
+            <h2 class="title">أرسل عرضك</h2>
+            <p class="sub_title__">قم بتحديد التكلفة والإرسال إلى العميل</p>
+            <div class="input_group__">
+              <input type="text" class="input__" placeholder="التكلفة" />
             </div>
             <button
               type="button"
@@ -849,16 +589,80 @@
               data-dismiss="modal"
               aria-label="Close"
               data-toggle="modal"
-              data-target="#payment_done"
-            >
-              تأكيد وسداد المبلغ
+              data-target="#offer_sent_modal__">
+              إرسال
             </button>
             <button
               type="button"
               class="close_modal_button submit-button__ full_width__"
               data-dismiss="modal"
-              aria-label="Close"
-            >
+              aria-label="Close">
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- offer sent modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="offer_sent_modal__"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <figure class="figure__">
+              <img
+                class="img-om"
+                src="assets/images/shapes/subs.png"
+                alt="..." />
+            </figure>
+            <h2 class="title">تم إرسال عرضك</h2>
+            <p class="sub_title__">تم إرسال عرضك إلى العميل بنجاح</p>
+            <button
+              type="button"
+              class="close_modal_button submit-button__ full_width__"
+              data-dismiss="modal"
+              aria-label="Close">
+              إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- finish_offer_modal -->
+
+    <div
+      class="modal fade deal_modal_report"
+      id="finish_offer_modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal_block__">
+            <h2 class="title">إنهاء الطلب</h2>
+            <p class="sub_title__">هل أنت متأكد من إنهاء الطلب ؟</p>
+            <button
+              type="button"
+              class="submit-button__ full_width__ log_out_button">
+              تأكيد إنهاء الطلب
+            </button>
+
+            <button
+              type="button"
+              class="submit-button__ full_width__ close_modal_button"
+              data-dismiss="modal"
+              aria-label="Close">
               إغلاق
             </button>
           </div>
@@ -875,8 +679,7 @@
       data-bs-keyboard="false"
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal_block__">
@@ -884,14 +687,12 @@
             <p class="sub_title__">هل أنت متأكد من تسجيل الخروج من التطبيق ؟</p>
             <button
               type="button"
-              class="submit-button__ full_width__ log_out_button"
-            >
+              class="submit-button__ full_width__ log_out_button">
               <figure class="figure__ icon__ loading-omd">
                 <img
                   class="lazy-omd img-om"
                   data-src="assets/images/shapes/log_out.svg"
-                  alt=".."
-                />
+                  alt=".." />
               </figure>
               تأكيد الخروج
             </button>
@@ -900,8 +701,7 @@
               type="button"
               class="submit-button__ full_width__ close_modal_button"
               data-dismiss="modal"
-              aria-label="Close"
-            >
+              aria-label="Close">
               إغلاق
             </button>
           </div>

@@ -1,0 +1,10 @@
+<svg id="coin_broken" data-name="coin/broken" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_broken_coin" data-name="vuesax/broken/coin">
+    <g id="coin">
+      <path id="Vector" d="M6.5,9.35c3.59,0,6.5-2.53,6.5-5.65V0c0,3.12-2.91,5.35-6.5,5.35S0,3.12,0,0V3.7A5.337,5.337,0,0,0,2.25,7.97" transform="translate(5.5 12.65)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-2" data-name="Vector" d="M13,5.65a4.7,4.7,0,0,1-.69,2.47A6.683,6.683,0,0,1,6.5,11,6.683,6.683,0,0,1,.69,8.12,4.7,4.7,0,0,1,0,5.65,5.294,5.294,0,0,1,1.9,1.66,6.973,6.973,0,0,1,6.5,0a7.018,7.018,0,0,1,4.6,1.65A5.331,5.331,0,0,1,13,5.65Z" transform="translate(5.5 2)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M13,5.65v5C13,13.77,10.09,16,6.5,16S0,13.77,0,10.65v-5C0,2.53,2.91,0,6.5,0a7.018,7.018,0,0,1,4.6,1.65A5.331,5.331,0,0,1,13,5.65Z" transform="translate(5.5 2)" fill="none" stroke="#3f4653" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

@@ -37,6 +37,28 @@
       background-color: rgba($redColor, 0.1);
     }
   }
+
+  &.edit_button {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgba($primaryColor, 0.1);
+
+    &:hover {
+      background-color: rgba($primaryColor, 0.2);
+    }
+  }
+  
+  &.delete_button {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgba($redColor, 0.1);
+
+    &:hover {
+      background-color: rgba($redColor, 0.2);
+    }
+  }
 }
 
 .buttons_group__ {

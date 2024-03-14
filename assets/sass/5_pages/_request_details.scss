@@ -160,4 +160,10 @@
       animation: unset;
     }
   }
+
+  &.request_sent_to_provider {
+    background-color: rgba(#2baeda , 0.2);
+    color: #2baeda;
+    transition: 0.5s;
+  }
 }
